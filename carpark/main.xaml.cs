@@ -24,6 +24,8 @@ namespace carpark
     {
         TextBlock[] txtBlcks;
 
+        PasswordBox[] passwords;
+
         string password1 = "";
 
         public main()
@@ -34,6 +36,8 @@ namespace carpark
 
             txtBlcks = new TextBlock[] { txt_space1, txt_space2, txt_space3, txt_space4, txt_space5 };
             UpdateSpaces();
+
+            passwords = new PasswordBox[] { pass_enterPassword1, pass_bay1enterPassword1, pass_enterPassword_Copy4, pass_enterPassword_Copy5, pass_enterPassword_Copy6 };
         }
 
         private void AllocateNewSpace()
@@ -51,7 +55,7 @@ namespace carpark
             if (space != null)
             {
                 space.SetAllocated(false);
-                txtBlcks[space.GetId()].Text = "Deallocate";
+                txtBlcks[space.GetId()].Text = "Free";
             }
         }
 
@@ -73,7 +77,7 @@ namespace carpark
 
         private void btn_submit2_Click(object sender, RoutedEventArgs e)
         {
-            if (CheckReg())
+            if (CheckReg() && CheckPassword())
             {
                 if (txt_space1.Text != "Allocated" && txt_space1.Text == "Space 1")
                 {
@@ -88,7 +92,7 @@ namespace carpark
 
         private void btn_bay1submit1_Click(object sender, RoutedEventArgs e)
         {
-            if (CheckReg())
+            if (CheckReg() && CheckPassword())
             {
                 if (txt_space2.Text != "Allocated" && txt_space2.Text == "Space 2")
                 {
@@ -98,15 +102,6 @@ namespace carpark
                 {
                     txt_space2.Text = "Locked";
                 }
-            }
-
-            if (txt_space2.Text != "Allocated")
-            {
-                txt_space2.Text = "Space 2";
-            }
-            else
-            {
-                txt_space2.Text = "Locked";
             }
         }
 
@@ -123,15 +118,6 @@ namespace carpark
                     txt_space3.Text = "Locked";
                 }
             }
-
-            if (txt_space3.Text != "Allocated")
-            {
-                txt_space3.Text = "Space 3";
-            }
-            else
-            {
-                txt_space3.Text = "Locked";
-            }
         }
 
         private void btn_submit_Copy5_Click(object sender, RoutedEventArgs e)
@@ -147,15 +133,6 @@ namespace carpark
                     txt_space4.Text = "Locked";
                 }
             }
-
-            if (txt_space4.Text != "Allocated")
-            {
-                txt_space4.Text = "Space 4";
-            }
-            else
-            {
-                txt_space4.Text = "Locked";
-            }
         }
 
         private void btn_submit_Copy6_Click(object sender, RoutedEventArgs e)
@@ -170,15 +147,6 @@ namespace carpark
                 {
                     txt_space5.Text = "Locked";
                 }
-            }
-
-            if (txt_space5.Text != "Allocated")
-            {
-                txt_space5.Text = "Space 5";
-            }
-            else
-            {
-                txt_space5.Text = "Locked";
             }
         }
 
@@ -230,6 +198,28 @@ namespace carpark
                 return false;
             }
             else if (pass_enterReg1.Password.Length <= 7)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+
+        private bool CheckPassword()
+        {
+            if (pass_enterPassword1.Password == "Password")
+            {
+                txt_paymentDone.Text = " 'Password' is not allowed to be set as a password";
+                return false;
+            }
+            else if (pass_enterPassword1.Password.Length == 0)
+            {
+                txt_paymentDone.Text = "The password field cannot be left empty";
+                return false;
+            }
+            else if (pass_enterPassword1.Password.Length <= 16)
             {
                 return true;
             }
@@ -318,6 +308,51 @@ namespace carpark
         {
             DeallocateSpace();
             txt_spacesAvailable1.Text = CarparkManager.Instance.GetCarpark(3).GetEmptySpaces().ToString();
+        }
+
+        private void txt_space1_Tapped(object sender, TappedRoutedEventArgs e)
+        {
+            txt_coinDispensed1.Text = "Coin Collected";
+        }
+
+        private void txt_space2_Tapped(object sender, TappedRoutedEventArgs e)
+        {
+            txt_bay1coinDispensed1.Text = "Coin Collected";
+        }
+
+        private void txt_space3_Tapped(object sender, TappedRoutedEventArgs e)
+        {
+            txt_coinDispensed_Copy4.Text = "Coin Collected";
+        }
+
+        private void txt_space4_Tapped(object sender, TappedRoutedEventArgs e)
+        {
+            txt_coinDispensed_Copy5.Text = "Coin Collected";
+        }
+
+        private void txt_space5_Tapped(object sender, TappedRoutedEventArgs e)
+        {
+            txt_coinDispensed_Copy6.Text = "Coin Collected";
+        }
+
+        private void pic_android_Tapped(object sender, TappedRoutedEventArgs e)
+        {
+            txt_paymentDone.Text = "You Have Paid. Exit Through Ground FLoor - Exit 1";
+        }
+
+        private void pic_apple_Tapped(object sender, TappedRoutedEventArgs e)
+        {
+            txt_paymentDone.Text = "You Have Paid. Exit Through Ground FLoor - Exit 2";
+        }
+
+        private void pic_contactless_Tapped(object sender, TappedRoutedEventArgs e)
+        {
+            txt_paymentDone.Text = "You Have Paid. Exit Through First Floor - Exit 1";
+        }
+
+        private void pic_card_Tapped(object sender, TappedRoutedEventArgs e)
+        {
+            txt_paymentDone.Text = "You Have Paid. Exit Through First Floor - Exit 2";
         }
     }
 }

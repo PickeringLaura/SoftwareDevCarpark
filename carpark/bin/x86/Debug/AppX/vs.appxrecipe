@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>1f2d63d5-e6a3-4453-aa39-26f8c9395d3e</PackageIdentityName>
     <PackageIdentityPublisher>CN=Laura</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\Laura\source\repos\carpark\carpark\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\Laura\Documents\secureCarpark\SoftwareDevCarpark\carpark\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,7 +18,7 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\Laura\source\repos\carpark\carpark\bin\x86\Debug\AppX</LayoutDir>
+    <LayoutDir>C:\Users\Laura\Documents\secureCarpark\SoftwareDevCarpark\carpark\bin\x86\Debug\AppX</LayoutDir>
     <RegisteredManifestChecksum>F138E7FE5A74A19895064CEACE320664ABE32A3A9DBBC37646FC66A32F3E2E78</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>1f2d63d5-e6a3-4453-aa39-26f8c9395d3e_1.0.0.0_x86__bhrgt734xp76w</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>1f2d63d5-e6a3-4453-aa39-26f8c9395d3e_bhrgt734xp76w!App</RegisteredUserModeAppID>
@@ -28,16 +28,16 @@
     <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\Laura\source\repos\carpark\carpark\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\Laura\Documents\secureCarpark\SoftwareDevCarpark\carpark\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-01-23T20:02:43.305</Modified>
+      <Modified>2018-01-23T23:01:28.961</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\Laura\source\repos\carpark\carpark\bin\x86\Debug\carpark.exe">
+    <AppxPackagedFile Include="C:\Users\Laura\Documents\secureCarpark\SoftwareDevCarpark\carpark\bin\x86\Debug\carpark.exe">
       <PackagePath>entrypoint\carpark.exe</PackagePath>
-      <Modified>2018-01-23T20:02:42.289</Modified>
+      <Modified>2018-01-23T23:01:28.293</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Laura\.nuget\packages\microsoft.csharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -495,76 +495,76 @@
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
       <Modified>2016-06-11T22:15:04.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Laura\source\repos\carpark\carpark\Assets\androidpaylogo-outlined.png">
+    <AppxPackagedFile Include="C:\Users\Laura\Documents\secureCarpark\SoftwareDevCarpark\carpark\Assets\androidpaylogo-outlined.png">
       <PackagePath>Assets\androidpaylogo-outlined.png</PackagePath>
       <Modified>2017-11-20T00:28:13.663</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Laura\source\repos\carpark\carpark\Assets\apple-pay-logo-F68C9AC252-seeklogo.com.png">
+    <AppxPackagedFile Include="C:\Users\Laura\Documents\secureCarpark\SoftwareDevCarpark\carpark\Assets\apple-pay-logo-F68C9AC252-seeklogo.com.png">
       <PackagePath>Assets\apple-pay-logo-F68C9AC252-seeklogo.com.png</PackagePath>
       <Modified>2017-11-20T00:28:13.663</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Laura\source\repos\carpark\carpark\Assets\Universal_Contactless_Card_Symbol.svg.png">
+    <AppxPackagedFile Include="C:\Users\Laura\Documents\secureCarpark\SoftwareDevCarpark\carpark\Assets\Universal_Contactless_Card_Symbol.svg.png">
       <PackagePath>Assets\Universal_Contactless_Card_Symbol.svg.png</PackagePath>
       <Modified>2017-11-20T00:28:13.683</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Laura\source\repos\carpark\carpark\Assets\Visa.png">
+    <AppxPackagedFile Include="C:\Users\Laura\Documents\secureCarpark\SoftwareDevCarpark\carpark\Assets\Visa.png">
       <PackagePath>Assets\Visa.png</PackagePath>
       <Modified>2017-11-20T00:28:13.683</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Laura\source\repos\carpark\carpark\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Laura\Documents\secureCarpark\SoftwareDevCarpark\carpark\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
       <Modified>2017-12-30T14:19:34.809</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Laura\source\repos\carpark\carpark\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Laura\Documents\secureCarpark\SoftwareDevCarpark\carpark\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2017-12-30T14:19:34.809</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Laura\source\repos\carpark\carpark\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Laura\Documents\secureCarpark\SoftwareDevCarpark\carpark\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2017-12-30T14:19:34.809</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Laura\source\repos\carpark\carpark\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Laura\Documents\secureCarpark\SoftwareDevCarpark\carpark\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2017-12-30T14:19:34.809</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Laura\source\repos\carpark\carpark\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\Laura\Documents\secureCarpark\SoftwareDevCarpark\carpark\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2017-12-30T14:19:34.809</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Laura\source\repos\carpark\carpark\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\Laura\Documents\secureCarpark\SoftwareDevCarpark\carpark\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2017-12-30T14:19:34.809</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Laura\source\repos\carpark\carpark\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Laura\Documents\secureCarpark\SoftwareDevCarpark\carpark\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2017-12-30T14:19:34.809</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Laura\source\repos\carpark\carpark\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\Laura\Documents\secureCarpark\SoftwareDevCarpark\carpark\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
       <Modified>2018-01-23T13:30:10.669</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Laura\source\repos\carpark\carpark\bin\x86\Debug\carpark.xr.xml">
+    <AppxPackagedFile Include="C:\Users\Laura\Documents\secureCarpark\SoftwareDevCarpark\carpark\bin\x86\Debug\carpark.xr.xml">
       <PackagePath>carpark.xr.xml</PackagePath>
-      <Modified>2018-01-23T17:01:39.889</Modified>
+      <Modified>2018-01-23T22:34:53.528</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.16299.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
       <Modified>2017-09-28T17:28:16.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Laura\source\repos\carpark\carpark\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\Laura\Documents\secureCarpark\SoftwareDevCarpark\carpark\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-01-23T19:44:23.037</Modified>
+      <Modified>2018-01-23T22:38:22.181</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Laura\source\repos\carpark\carpark\bin\x86\Debug\Core\carpark.exe">
+    <AppxPackagedFile Include="C:\Users\Laura\Documents\secureCarpark\SoftwareDevCarpark\carpark\bin\x86\Debug\Core\carpark.exe">
       <PackagePath>carpark.exe</PackagePath>
-      <Modified>2018-01-23T20:02:43.290</Modified>
+      <Modified>2018-01-23T23:01:28.948</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

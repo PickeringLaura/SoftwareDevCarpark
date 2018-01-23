@@ -25735,11 +25735,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Laura\\source\\repos\\carpark\\carpark\\carpark.csproj",
+      "projectUniqueName": "C:\\Users\\Laura\\Documents\\secureCarpark\\SoftwareDevCarpark\\carpark\\carpark.csproj",
       "projectName": "carpark",
-      "projectPath": "C:\\Users\\Laura\\source\\repos\\carpark\\carpark\\carpark.csproj",
+      "projectPath": "C:\\Users\\Laura\\Documents\\secureCarpark\\SoftwareDevCarpark\\carpark\\carpark.csproj",
       "packagesPath": "C:\\Users\\Laura\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Laura\\source\\repos\\carpark\\carpark\\obj\\",
+      "outputPath": "C:\\Users\\Laura\\Documents\\secureCarpark\\SoftwareDevCarpark\\carpark\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
