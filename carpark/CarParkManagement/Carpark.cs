@@ -51,7 +51,14 @@ namespace carpark.CarParkManagement
         {
             return spaces[id];
         }
-        //create a method which gets the first allocated parking space back
-        //
+        
+        public bool ResetSpaces()
+        {
+            foreach (var space in spaces)
+            {
+                space.SetAllocated(false);
+            }
+            return true;
+        }
     }
 }

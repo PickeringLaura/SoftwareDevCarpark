@@ -31,7 +31,7 @@
     <AppXManifest Include="C:\Users\Laura\Documents\secureCarpark\SoftwareDevCarpark\carpark\bin\x86\Release\ilc\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-01-24T13:56:14.846</Modified>
+      <Modified>2018-01-24T15:40:52.715</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -87,15 +87,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Laura\Documents\secureCarpark\SoftwareDevCarpark\carpark\bin\x86\Release\ilc\carpark.dll">
       <PackagePath>carpark.dll</PackagePath>
-      <Modified>2018-01-24T13:56:14.653</Modified>
+      <Modified>2018-01-24T15:40:52.467</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Laura\Documents\secureCarpark\SoftwareDevCarpark\carpark\bin\x86\Release\ilc\carpark.exe">
       <PackagePath>carpark.exe</PackagePath>
-      <Modified>2018-01-24T13:56:14.821</Modified>
+      <Modified>2018-01-24T15:40:52.642</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Laura\Documents\secureCarpark\SoftwareDevCarpark\carpark\bin\x86\Release\ilc\carpark.pdb">
       <PackagePath>carpark.pdb</PackagePath>
-      <Modified>2018-01-24T13:56:14.807</Modified>
+      <Modified>2018-01-24T15:40:52.622</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Laura\Documents\secureCarpark\SoftwareDevCarpark\carpark\bin\x86\Release\ilc\clrcompression.dll">
       <PackagePath>clrcompression.dll</PackagePath>
@@ -104,7 +104,7 @@
     <AppxPackagedFile Include="C:\Users\Laura\Documents\secureCarpark\SoftwareDevCarpark\carpark\bin\x86\Release\ilc\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-01-24T13:20:29.611</Modified>
+      <Modified>2018-01-24T15:40:16.736</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

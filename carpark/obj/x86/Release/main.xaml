@@ -16,9 +16,9 @@
                 <x:String>6 - 8 Hours = £10.00</x:String>
                 <x:String>8 Hours+ = £15.00</x:String>
             </ListView>
-            <Button x:ConnectionId='4' x:Name="btn_enterACar1" Content="Enter A Car" HorizontalAlignment="Left" Height="45" Margin="66,91,0,0" VerticalAlignment="Top" Width="142" FontSize="18"                             />
-            <Button x:ConnectionId='5' x:Name="btn_exitCar1" Content="Exit A Car" HorizontalAlignment="Left" Height="39" Margin="219,94,0,0" VerticalAlignment="Top" Width="142" FontSize="18"                           />
-            <TextBlock x:ConnectionId='6' x:Name="txt_space1" HorizontalAlignment="Left" Height="31" Margin="31,364,0,0" Text="Space 1" TextWrapping="Wrap" VerticalAlignment="Top" Width="75"                           />
+            <Button x:ConnectionId='4' x:Name="btn_enterACar1" Content="Enter A Car" HorizontalAlignment="Left" Height="39" Margin="66,91,0,0" VerticalAlignment="Top" Width="142" FontSize="18"                             />
+            <Button x:ConnectionId='5' x:Name="btn_exitCar1" Content="Exit A Car" HorizontalAlignment="Left" Height="39" Margin="213,91,0,0" VerticalAlignment="Top" Width="142" FontSize="18"                           />
+            <TextBlock x:ConnectionId='6' x:Name="txt_space1" HorizontalAlignment="Left" Height="31" Margin="31,364,0,0" Text="Space 1" TextWrapping="Wrap" VerticalAlignment="Top" Width="75"                                                                          />
             <TextBlock x:ConnectionId='7' x:Name="txt_space2" HorizontalAlignment="Left" Height="31" Margin="114,362,0,0" Text="Space 2" TextWrapping="Wrap" VerticalAlignment="Top" Width="75"                           />
             <TextBlock x:ConnectionId='8' x:Name="txt_space3" HorizontalAlignment="Left" Height="31" Margin="30,401,0,0" Text="Space 3" TextWrapping="Wrap" VerticalAlignment="Top" Width="75" RenderTransformOrigin="0.48,0.71"                           />
             <TextBlock x:ConnectionId='9' x:Name="txt_space4" HorizontalAlignment="Left" Height="31" Margin="115,397,0,0" Text="Space 4" TextWrapping="Wrap" VerticalAlignment="Top" Width="75"                           />
@@ -26,29 +26,29 @@
             <TextBlock x:ConnectionId='11' x:Name="txt_spacesAvailable1" HorizontalAlignment="Left" Height="39" Margin="26,45,0,0" Text="#AvailableSpaces#" TextWrapping="Wrap" VerticalAlignment="Top" Width="338" FontSize="24"                                                         />
             <TextBlock x:ConnectionId='12' x:Name="txt_coinDispensed1" HorizontalAlignment="Left" Height="51" Margin="353,128,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="82"/>
             <PasswordBox x:ConnectionId='13' x:Name="pass_reg1" HorizontalAlignment="Left" Height="33" Margin="456,134,0,0" VerticalAlignment="Top" Width="137" PlaceholderText="#EnterReg#" FontSize="16" />
-            <PasswordBox x:ConnectionId='14' x:Name="pass_bay1" HorizontalAlignment="Left" Height="33" Margin="600,133,0,0" VerticalAlignment="Top" Width="137" PlaceholderText="#EnterPassword#" FontSize="16"/>
-            <Button x:ConnectionId='15' x:Name="btn_BaySubmit1" Content="Submit" HorizontalAlignment="Left" Height="37" Margin="746,131,0,0" VerticalAlignment="Top" Width="85" FontSize="16"                          />
-            <TextBlock x:ConnectionId='16' x:Name="txt_coinDispensed2" HorizontalAlignment="Left" Height="51" Margin="352,179,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="82"/>
-            <PasswordBox x:ConnectionId='17' x:Name="pass_reg2" HorizontalAlignment="Left" Height="33" Margin="455,182,0,0" VerticalAlignment="Top" Width="137" PlaceholderText="#EnterReg#" FontSize="16"/>
-            <PasswordBox x:ConnectionId='18' x:Name="pass_bay2" HorizontalAlignment="Left" Height="33" Margin="602,183,0,0" VerticalAlignment="Top" Width="137" PlaceholderText="#EnterPassword#" FontSize="16"/>
-            <Button x:ConnectionId='19' x:Name="btn_BaySubmit2" Content="Submit" HorizontalAlignment="Left" Height="37" Margin="749,181,0,0" VerticalAlignment="Top" Width="85" FontSize="16"                              />
+            <PasswordBox x:ConnectionId='14' x:Name="pass_bay1" HorizontalAlignment="Left" Height="33" Margin="599,134,0,0" VerticalAlignment="Top" Width="137" PlaceholderText="#EnterPassword#" FontSize="16"/>
+            <Button x:ConnectionId='15' x:Name="btn_BaySubmit1" Content="Submit" HorizontalAlignment="Left" Height="33" Margin="746,134,0,0" VerticalAlignment="Top" Width="89" FontSize="12"                          />
+            <TextBlock x:ConnectionId='16' x:Name="txt_coinDispensed2" HorizontalAlignment="Left" Height="51" Margin="352,179,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="82" FontFamily="Segoe UI"/>
+            <PasswordBox x:ConnectionId='17' x:Name="pass_reg2" HorizontalAlignment="Left" Height="33" Margin="457,182,0,0" VerticalAlignment="Top" Width="137" PlaceholderText="#EnterReg#" FontSize="16"/>
+            <PasswordBox x:ConnectionId='18' x:Name="pass_bay2" HorizontalAlignment="Left" Height="33" Margin="600,182,0,0" VerticalAlignment="Top" Width="137" PlaceholderText="#EnterPassword#" FontSize="16"/>
+            <Button x:ConnectionId='19' x:Name="btn_BaySubmit2" Content="Submit" HorizontalAlignment="Left" Height="32" Margin="746,182,0,0" VerticalAlignment="Top" Width="88" FontSize="12"                              />
             <TextBlock x:ConnectionId='20' x:Name="txt_coinDispensed3" HorizontalAlignment="Left" Height="51" Margin="354,229,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="82"/>
-            <PasswordBox x:ConnectionId='21' x:Name="pass_reg3" HorizontalAlignment="Left" Height="33" Margin="455,232,0,0" VerticalAlignment="Top" Width="137" PlaceholderText="#EnterReg#" FontSize="16"/>
-            <PasswordBox x:ConnectionId='22' x:Name="pass_bay3" HorizontalAlignment="Left" Height="33" Margin="605,230,0,0" VerticalAlignment="Top" Width="137" PlaceholderText="#EnterPassword#" FontSize="16"/>
-            <Button x:ConnectionId='23' x:Name="btn_BaySubmit3" Content="Submit" HorizontalAlignment="Left" Height="37" Margin="752,231,0,0" VerticalAlignment="Top" Width="85" FontSize="16"                               />
+            <PasswordBox x:ConnectionId='21' x:Name="pass_reg3" HorizontalAlignment="Left" Height="33" Margin="458,232,0,0" VerticalAlignment="Top" Width="137" PlaceholderText="#EnterReg#" FontSize="16"/>
+            <PasswordBox x:ConnectionId='22' x:Name="pass_bay3" HorizontalAlignment="Left" Height="33" Margin="601,232,0,0" VerticalAlignment="Top" Width="137" PlaceholderText="#EnterPassword#" FontSize="16"/>
+            <Button x:ConnectionId='23' x:Name="btn_BaySubmit3" Content="Submit" HorizontalAlignment="Left" Height="33" Margin="746,232,0,0" VerticalAlignment="Top" Width="87" FontSize="12"                               />
             <TextBlock x:ConnectionId='24' x:Name="txt_coinDispensed4" HorizontalAlignment="Left" Height="51" Margin="354,279,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="82"/>
-            <PasswordBox x:ConnectionId='25' x:Name="pass_reg4" HorizontalAlignment="Left" Height="33" Margin="455,283,0,0" VerticalAlignment="Top" Width="137" PlaceholderText="#EnterReg#" FontSize="16"/>
-            <PasswordBox x:ConnectionId='26' x:Name="pass_bay4" HorizontalAlignment="Left" Height="33" Margin="604,277,0,0" VerticalAlignment="Top" Width="137" PlaceholderText="#EnterPassword#" FontSize="16"/>
-            <Button x:ConnectionId='27' x:Name="btn_BaySubmit4" Content="Submit" HorizontalAlignment="Left" Height="37" Margin="754,275,0,0" VerticalAlignment="Top" Width="85" FontSize="16"                               />
+            <PasswordBox x:ConnectionId='25' x:Name="pass_reg4" HorizontalAlignment="Left" Height="33" Margin="458,278,0,0" VerticalAlignment="Top" Width="139" PlaceholderText="#EnterReg#" FontSize="16"/>
+            <PasswordBox x:ConnectionId='26' x:Name="pass_bay4" HorizontalAlignment="Left" Height="33" Margin="602,277,0,0" VerticalAlignment="Top" Width="137" PlaceholderText="#EnterPassword#" FontSize="16"/>
+            <Button x:ConnectionId='27' x:Name="btn_BaySubmit4" Content="Submit" HorizontalAlignment="Left" Height="31" Margin="748,278,0,0" VerticalAlignment="Top" Width="87" FontSize="12"                               />
             <TextBlock x:ConnectionId='28' x:Name="txt_coinDispensed5" HorizontalAlignment="Left" Height="51" Margin="353,328,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="82"/>
-            <PasswordBox x:ConnectionId='29' x:Name="pass_reg5" HorizontalAlignment="Left" Height="33" Margin="455,330,0,0" VerticalAlignment="Top" Width="137" PlaceholderText="#EnterReg#" FontSize="16"/>
-            <PasswordBox x:ConnectionId='30' x:Name="pass_bay5" HorizontalAlignment="Left" Height="33" Margin="604,327,0,0" VerticalAlignment="Top" Width="137" PlaceholderText="#EnterPassword#" FontSize="16"/>
-            <Button x:ConnectionId='31' x:Name="btn_BaySubmit5" Content="Submit" HorizontalAlignment="Left" Height="37" Margin="753,325,0,0" VerticalAlignment="Top" Width="85" FontSize="16"                               />
-            <Button x:ConnectionId='32' x:Name="btn_BayUnlock1" Content="Unlock" HorizontalAlignment="Left" Height="39" Margin="834,129,0,0" VerticalAlignment="Top" Width="89" FontSize="18"                          />
-            <Button x:ConnectionId='33' x:Name="btn_BayUnlock2" Content="Unlock" HorizontalAlignment="Left" Height="39" Margin="839,179,0,0" VerticalAlignment="Top" Width="89" FontSize="18"                               />
-            <Button x:ConnectionId='34' x:Name="btn_BayUnlock3" Content="Unlock" HorizontalAlignment="Left" Height="39" Margin="843,231,0,0" VerticalAlignment="Top" Width="89" FontSize="18"                               />
-            <Button x:ConnectionId='35' x:Name="btn_BayUnlock4" Content="Unlock" HorizontalAlignment="Left" Height="39" Margin="845,276,0,0" VerticalAlignment="Top" Width="89" FontSize="18"                               />
-            <Button x:ConnectionId='36' x:Name="btn_BayUnlock5" Content="Unlock" HorizontalAlignment="Left" Height="39" Margin="845,324,0,0" VerticalAlignment="Top" Width="89" FontSize="18"                               />
+            <PasswordBox x:ConnectionId='29' x:Name="pass_reg5" HorizontalAlignment="Left" Height="33" Margin="459,323,0,0" VerticalAlignment="Top" Width="138" PlaceholderText="#EnterReg#" FontSize="16"/>
+            <PasswordBox x:ConnectionId='30' x:Name="pass_bay5" HorizontalAlignment="Left" Height="33" Margin="603,323,0,0" VerticalAlignment="Top" Width="137" PlaceholderText="#EnterPassword#" FontSize="16"/>
+            <Button x:ConnectionId='31' x:Name="btn_BaySubmit5" Content="Submit" HorizontalAlignment="Left" Height="31" Margin="748,324,0,0" VerticalAlignment="Top" Width="87" FontSize="12"                               />
+            <Button x:ConnectionId='32' x:Name="btn_BayUnlock1" Content="Enter Coin" HorizontalAlignment="Left" Height="32" Margin="838,134,0,0" VerticalAlignment="Top" Width="89" FontSize="12"                           FontFamily="Segoe UI"/>
+            <Button x:ConnectionId='33' x:Name="btn_BayUnlock2" Content="Enter Coin" HorizontalAlignment="Left" Height="32" Margin="838,182,0,0" VerticalAlignment="Top" Width="89" FontSize="12"                               />
+            <Button x:ConnectionId='34' x:Name="btn_BayUnlock3" Content="Enter Coin" HorizontalAlignment="Left" Height="33" Margin="838,232,0,0" VerticalAlignment="Top" Width="89" FontSize="12"                               />
+            <Button x:ConnectionId='35' x:Name="btn_BayUnlock4" Content="Unlock" HorizontalAlignment="Left" Height="31" Margin="839,278,0,0" VerticalAlignment="Top" Width="89" FontSize="12"                               />
+            <Button x:ConnectionId='36' x:Name="btn_BayUnlock5" Content="Unlock" HorizontalAlignment="Left" Height="31" Margin="839,324,0,0" VerticalAlignment="Top" Width="89" FontSize="12"                               />
             <TextBlock x:ConnectionId='37' x:Name="btn_forgottenPass1" HorizontalAlignment="Left" Height="29" Margin="536,414,0,0" VerticalAlignment="Top" Width="150" Text="Forgotten Password" TextAlignment="Center"/>
             <TextBlock x:ConnectionId='38' x:Name="btn_ForgotCoin1" HorizontalAlignment="Left" Height="29" Margin="521,380,0,0" VerticalAlignment="Top" Width="109" Text="Lost Coin" TextAlignment="Center"/>
             <TextBlock x:ConnectionId='39' x:Name="txt_forgotPass1" HorizontalAlignment="Left" Height="25" Margin="689,415,0,0" Text="Enter Coin" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextAlignment="Center"                                                                                    />
@@ -60,9 +60,9 @@
             <PasswordBox x:ConnectionId='45' x:Name="pass_DiscountCode" HorizontalAlignment="Left" Height="36" Margin="1144,129,0,0" VerticalAlignment="Top" Width="143" PlaceholderText="#EnterDiscount#" FontSize="16"/>
             <Button x:ConnectionId='46' x:Name="btn_submit3" Content="Submit" HorizontalAlignment="Left" Height="34" Margin="1295,131,0,0" VerticalAlignment="Top" Width="82" FontSize="16"                          />
             <TextBlock x:ConnectionId='47' x:Name="txt_selectPayment1" HorizontalAlignment="Left" Height="30" Margin="1143,180,0,0" Text="Select Payment Method" TextWrapping="Wrap" VerticalAlignment="Top" Width="237" FontSize="18"/>
-            <Button x:ConnectionId='48' x:Name="btn_emergencyTheft" Content="Theft" HorizontalAlignment="Left" Height="58" Margin="962,224,0,0" VerticalAlignment="Top" Width="127"                                 />
-            <Button x:ConnectionId='49' x:Name="btn_emergencyFire_Copy" Content="Fire" HorizontalAlignment="Left" Height="58" Margin="960,161,0,0" VerticalAlignment="Top" Width="129"                                     />
-            <Button x:ConnectionId='50' x:Name="btn_emergencyStop" Content="Stop" HorizontalAlignment="Left" Height="35" Margin="965,291,0,0" VerticalAlignment="Top" Width="123"                                />
+            <Button x:ConnectionId='48' x:Name="btn_emergencyTheft" Content="Theft" HorizontalAlignment="Left" Height="35" Margin="960,200,0,0" VerticalAlignment="Top" Width="129"                                 />
+            <Button x:ConnectionId='49' x:Name="btn_emergencyFire_Copy" Content="Fire" HorizontalAlignment="Left" Height="35" Margin="960,162,0,0" VerticalAlignment="Top" Width="129"                                     />
+            <Button x:ConnectionId='50' x:Name="btn_emergencyStop" Content="Stop" HorizontalAlignment="Left" Height="35" Margin="961,238,0,0" VerticalAlignment="Top" Width="129"                                />
             <TextBlock x:ConnectionId='51' x:Name="txt_paymentDone" HorizontalAlignment="Left" Height="115" Margin="969,344,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="135"/>
             <Image x:ConnectionId='52' x:Name="pic_android" HorizontalAlignment="Left" Height="92" Margin="1140,234,0,0" VerticalAlignment="Top" Width="108" Source="Assets/androidpaylogo-outlined.png"                            />
             <Image x:ConnectionId='53' x:Name ="pic_apple" HorizontalAlignment="Left" Height="62" Margin="1284,252,0,0" VerticalAlignment="Top" Width="96" Source="Assets/apple-pay-logo-F68C9AC252-seeklogo.com.png"                          />
@@ -74,7 +74,7 @@
                 <x:String>Carpark 4 - 35 Available Spaces</x:String>
             </ListView>
             <TextBlock x:ConnectionId='56' x:Name="txt_EmergencyVehicles" HorizontalAlignment="Left" Height="90" Margin="195,365,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="258"/>
-            <TextBlock x:ConnectionId='57' x:Name="txt_displayBarriers" HorizontalAlignment="Left" Height="24" Margin="458,104,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="465" TextAlignment="Center"/>
+            <TextBlock x:ConnectionId='57' x:Name="txt_displayBarriers" HorizontalAlignment="Left" Height="24" Margin="458,104,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="465" TextAlignment="Center" FontFamily="Segoe UI"/>
         </Grid>
     </Viewbox>
 </Page>
