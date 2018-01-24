@@ -101,7 +101,7 @@ namespace carpark
             txt_paymentDone.Text = "Password for forgotten coin does not match";
         }
 
-        private void txt_forgotPass1_Tapped(object sender, TappedRoutedEventArgs e)
+        private void txt_forgotPass1_Click(object sender, RoutedEventArgs e)
         {
             txt_proceedToPay1.Text = "Validation sucessful. Continue to payment.";
         }
@@ -578,9 +578,43 @@ namespace carpark
 
         private void pic_card_Tapped(object sender, TappedRoutedEventArgs e)
         {
-            if (txt_AmountDue1.Text.Contains("£"))
+            /*if (txt_AmountDue1.Text.Contains("£"))
             {
                 txt_paymentDone.Text = "You Have Paid. Exit Through First FLoor - Exit 2";
+                txt_displayBarriers.Text = "Barrier Raised, You Are Free To Exit.";
+                txt_Payment1.Text = "";
+                ClearFields(CurrentlySelectedBay);
+            }*/
+        }
+
+        private void btn_PrepaySubmit_Click(object sender, RoutedEventArgs e)
+        {
+            if (pass_PrepayCode.Password == "prepay1")
+            {
+                txt_AmountDue1.Text = "";
+            }
+            else if (pass_PrepayCode.Password == "prepay2")
+            {
+                txt_AmountDue1.Text = "";
+            }
+            else if (pass_PrepayCode.Password == "prepay3")
+            {
+                txt_AmountDue1.Text = "";
+            }
+            else
+            {
+                txt_AmountDue1.Text = "This is not a valid pre-pay code.";
+            }
+            txt_paymentDone.Text = "You Have Paid. Exit Through First FLoor - Exit 2";
+            txt_displayBarriers.Text = "Barrier Raised, You Are Free To Exit.";
+            ClearFields(CurrentlySelectedBay);
+        }
+
+        private void pic_cash_Tapped(object sender, TappedRoutedEventArgs e)
+        {
+            if (txt_AmountDue1.Text.Contains("£"))
+            {
+                txt_paymentDone.Text = "You Have Paid. Exit Through First FLoor - Exit 1";
                 txt_displayBarriers.Text = "Barrier Raised, You Are Free To Exit.";
                 txt_Payment1.Text = "";
                 ClearFields(CurrentlySelectedBay);
@@ -605,6 +639,15 @@ namespace carpark
         }
 
         private void txt_space1_SelectionChanged(object sender, RoutedEventArgs e)
+        {
+
+        }
+        private void pass_DiscountCode_PasswordChanged(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void txt_forgotPass1_Tapped(object sender, RoutedEventArgs e)
         {
 
         }
@@ -651,7 +694,5 @@ namespace carpark
 
             currentlySelectedBay = -1;
         }
-
-
     }
 }

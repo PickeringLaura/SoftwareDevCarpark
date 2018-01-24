@@ -116,6 +116,8 @@
   <ItemGroup>
     <Content Include="Assets\androidpaylogo-outlined.png" />
     <Content Include="Assets\apple-pay-logo-F68C9AC252-seeklogo.com.png" />
+    <Content Include="Assets\coin.png" />
+    <Content Include="Assets\prepay.gif" />
     <Content Include="Assets\Universal_Contactless_Card_Symbol.svg.png" />
     <Content Include="Assets\Visa.png" />
     <Content Include="Properties\Default.rd.xml" />

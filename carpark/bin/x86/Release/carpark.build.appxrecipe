@@ -31,8 +31,14 @@
     <AppxPackagedFile Include="C:\Users\Laura\Documents\secureCarpark\SoftwareDevCarpark\carpark\bin\x86\Release\ilc\Assets\apple-pay-logo-F68C9AC252-seeklogo.com.png">
       <PackagePath>Assets\apple-pay-logo-F68C9AC252-seeklogo.com.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Laura\Documents\secureCarpark\SoftwareDevCarpark\carpark\bin\x86\Release\ilc\Assets\coin.png">
+      <PackagePath>Assets\coin.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Laura\Documents\secureCarpark\SoftwareDevCarpark\carpark\bin\x86\Release\ilc\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Laura\Documents\secureCarpark\SoftwareDevCarpark\carpark\bin\x86\Release\ilc\Assets\prepay.gif">
+      <PackagePath>Assets\prepay.gif</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Laura\Documents\secureCarpark\SoftwareDevCarpark\carpark\bin\x86\Release\ilc\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>

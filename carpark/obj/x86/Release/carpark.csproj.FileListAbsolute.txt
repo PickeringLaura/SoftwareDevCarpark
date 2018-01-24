@@ -864,3 +864,7 @@ C:\Users\Laura\Documents\secureCarpark\SoftwareDevCarpark\carpark\obj\x86\Releas
 C:\Users\Laura\Documents\secureCarpark\SoftwareDevCarpark\carpark\obj\x86\Release\ilc\intermediate\TransformedSRWR\System.Runtime.WindowsRuntime.dll
 C:\Users\Laura\Documents\secureCarpark\SoftwareDevCarpark\carpark\obj\x86\Release\ilc\intermediate\TransformedSRWR\System.Runtime.WindowsRuntime.dll.ILTransformTask.repro
 C:\Users\Laura\Documents\secureCarpark\SoftwareDevCarpark\carpark\obj\x86\Release\ilc\intermediate\TransformedSRWR\System.Runtime.WindowsRuntime.pdb
+C:\Users\Laura\Documents\secureCarpark\SoftwareDevCarpark\carpark\bin\x86\Release\ilc\Assets\coin.png
+C:\Users\Laura\Documents\secureCarpark\SoftwareDevCarpark\carpark\bin\x86\Release\ilc\Assets\prepay.gif
+C:\Users\Laura\Documents\secureCarpark\SoftwareDevCarpark\carpark\obj\x86\Release\ilc\in\Assets\coin.png
+C:\Users\Laura\Documents\secureCarpark\SoftwareDevCarpark\carpark\obj\x86\Release\ilc\in\Assets\prepay.gif

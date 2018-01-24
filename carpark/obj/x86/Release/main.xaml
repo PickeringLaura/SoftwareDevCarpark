@@ -47,27 +47,27 @@
             <Button x:ConnectionId='32' x:Name="btn_BayUnlock1" Content="Enter Coin" HorizontalAlignment="Left" Height="32" Margin="838,134,0,0" VerticalAlignment="Top" Width="89" FontSize="12"                           FontFamily="Segoe UI"/>
             <Button x:ConnectionId='33' x:Name="btn_BayUnlock2" Content="Enter Coin" HorizontalAlignment="Left" Height="32" Margin="838,182,0,0" VerticalAlignment="Top" Width="89" FontSize="12"                               />
             <Button x:ConnectionId='34' x:Name="btn_BayUnlock3" Content="Enter Coin" HorizontalAlignment="Left" Height="33" Margin="838,232,0,0" VerticalAlignment="Top" Width="89" FontSize="12"                               />
-            <Button x:ConnectionId='35' x:Name="btn_BayUnlock4" Content="Unlock" HorizontalAlignment="Left" Height="31" Margin="839,278,0,0" VerticalAlignment="Top" Width="89" FontSize="12"                               />
-            <Button x:ConnectionId='36' x:Name="btn_BayUnlock5" Content="Unlock" HorizontalAlignment="Left" Height="31" Margin="839,324,0,0" VerticalAlignment="Top" Width="89" FontSize="12"                               />
+            <Button x:ConnectionId='35' x:Name="btn_BayUnlock4" Content="Enter Coin" HorizontalAlignment="Left" Height="31" Margin="839,278,0,0" VerticalAlignment="Top" Width="89" FontSize="12"                               />
+            <Button x:ConnectionId='36' x:Name="btn_BayUnlock5" Content="Enter Coin" HorizontalAlignment="Left" Height="31" Margin="839,324,0,0" VerticalAlignment="Top" Width="89" FontSize="12"                               />
             <TextBlock x:ConnectionId='37' x:Name="btn_forgottenPass1" HorizontalAlignment="Left" Height="29" Margin="536,414,0,0" VerticalAlignment="Top" Width="150" Text="Forgotten Password" TextAlignment="Center"/>
             <TextBlock x:ConnectionId='38' x:Name="btn_ForgotCoin1" HorizontalAlignment="Left" Height="29" Margin="521,380,0,0" VerticalAlignment="Top" Width="109" Text="Lost Coin" TextAlignment="Center"/>
-            <TextBlock x:ConnectionId='39' x:Name="txt_forgotPass1" HorizontalAlignment="Left" Height="25" Margin="689,415,0,0" Text="Enter Coin" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextAlignment="Center"                                                                                    />
+            <Button x:ConnectionId='39' x:Name="txt_forgotPass1" HorizontalAlignment="Left" Height="25" Margin="689,415,0,0" VerticalAlignment="Top" Width="120"                                  Content="Enter Coin" FontSize="12"                              />
             <PasswordBox x:ConnectionId='40' x:Name="pass_coin" HorizontalAlignment="Left" Height="27" Margin="638,379,0,0" VerticalAlignment="Top" Width="194" PlaceholderText="#Enter Pasword#"/>
             <Button x:ConnectionId='41' x:Name="btn_submitPassForCoin1" Content="Submit" HorizontalAlignment="Left" Height="31" Margin="836,380,0,0" VerticalAlignment="Top" Width="93"                                     />
             <TextBlock x:ConnectionId='42' x:Name="txt_proceedToPay1" HorizontalAlignment="Left" Height="47" Margin="825,417,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="144" TextAlignment="Center"/>
             <TextBlock x:ConnectionId='43' x:Name="txt_Payment1" HorizontalAlignment="Left" Height="70" Margin="1098,47,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="292" FontSize="18" TextAlignment="Center"/>
             <TextBlock x:ConnectionId='44' x:Name="txt_AmountDue1" HorizontalAlignment="Left" Height="33" Margin="1147,96,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="136" FontSize="18"/>
-            <PasswordBox x:ConnectionId='45' x:Name="pass_DiscountCode" HorizontalAlignment="Left" Height="36" Margin="1144,129,0,0" VerticalAlignment="Top" Width="143" PlaceholderText="#EnterDiscount#" FontSize="16"/>
+            <PasswordBox x:ConnectionId='45' x:Name="pass_DiscountCode" HorizontalAlignment="Left" Height="36" Margin="1144,129,0,0" VerticalAlignment="Top" Width="143" PlaceholderText="#EnterDiscount#" FontSize="16"                                                    />
             <Button x:ConnectionId='46' x:Name="btn_submit3" Content="Submit" HorizontalAlignment="Left" Height="34" Margin="1295,131,0,0" VerticalAlignment="Top" Width="82" FontSize="16"                          />
             <TextBlock x:ConnectionId='47' x:Name="txt_selectPayment1" HorizontalAlignment="Left" Height="30" Margin="1143,180,0,0" Text="Select Payment Method" TextWrapping="Wrap" VerticalAlignment="Top" Width="237" FontSize="18"/>
             <Button x:ConnectionId='48' x:Name="btn_emergencyTheft" Content="Theft" HorizontalAlignment="Left" Height="35" Margin="960,200,0,0" VerticalAlignment="Top" Width="129"                                 />
             <Button x:ConnectionId='49' x:Name="btn_emergencyFire_Copy" Content="Fire" HorizontalAlignment="Left" Height="35" Margin="960,162,0,0" VerticalAlignment="Top" Width="129"                                     />
             <Button x:ConnectionId='50' x:Name="btn_emergencyStop" Content="Stop" HorizontalAlignment="Left" Height="35" Margin="961,238,0,0" VerticalAlignment="Top" Width="129"                                />
-            <TextBlock x:ConnectionId='51' x:Name="txt_paymentDone" HorizontalAlignment="Left" Height="115" Margin="969,344,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="135"/>
+            <TextBlock x:ConnectionId='51' x:Name="txt_paymentDone" HorizontalAlignment="Left" Height="91" Margin="969,368,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="135"/>
             <Image x:ConnectionId='52' x:Name="pic_android" HorizontalAlignment="Left" Height="92" Margin="1140,234,0,0" VerticalAlignment="Top" Width="108" Source="Assets/androidpaylogo-outlined.png"                            />
             <Image x:ConnectionId='53' x:Name ="pic_apple" HorizontalAlignment="Left" Height="62" Margin="1284,252,0,0" VerticalAlignment="Top" Width="96" Source="Assets/apple-pay-logo-F68C9AC252-seeklogo.com.png"                          />
             <Image x:ConnectionId='54' x:Name="pic_contactless" HorizontalAlignment="Left" Height="76" Margin="1150,344,0,0" VerticalAlignment="Top" Width="108" Source="Assets/Universal_Contactless_Card_Symbol.svg.png" RenderTransformOrigin="0.667,0.079"                                />
-            <Image x:ConnectionId='55' x:Name="pic_card" HorizontalAlignment="Left" Height="36" Margin="1288,360,0,0" VerticalAlignment="Top" Width="105" Source="Assets/Visa.png"                         />
+            <Image x:ConnectionId='55' x:Name="pic_card" HorizontalAlignment="Left" Height="36" Margin="1278,361,0,0" VerticalAlignment="Top" Width="105" Source="Assets/prepay.gif"                         />
             <ListView HorizontalAlignment="Left" Height="103" Margin="10,141,0,0" VerticalAlignment="Top" Width="251">
                 <x:String>Carpark 2 - 30 Available Spaces</x:String>
                 <x:String>Carpark 3 - 20 Available Spaces</x:String>
@@ -75,6 +75,9 @@
             </ListView>
             <TextBlock x:ConnectionId='56' x:Name="txt_EmergencyVehicles" HorizontalAlignment="Left" Height="90" Margin="195,365,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="258"/>
             <TextBlock x:ConnectionId='57' x:Name="txt_displayBarriers" HorizontalAlignment="Left" Height="24" Margin="458,104,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="465" TextAlignment="Center" FontFamily="Segoe UI"/>
+            <PasswordBox x:ConnectionId='58' x:Name="pass_PrepayCode" HorizontalAlignment="Left" Height="38" Margin="1127,417,0,0" VerticalAlignment="Top" Width="162" PlaceholderText="#EnterAPrepayCode#"/>
+            <Button x:ConnectionId='59' x:Name="btn_PrepaySubmit" Content="Submit" HorizontalAlignment="Left" Height="36" Margin="1298,417,0,0" VerticalAlignment="Top" Width="79"                               />
+            <Image x:ConnectionId='60' x:Name="pic_cash" HorizontalAlignment="Left" Height="68" Margin="1061,292,0,0" VerticalAlignment="Top" Width="77" Source="Assets/coin.png"                         />
         </Grid>
     </Viewbox>
 </Page>
