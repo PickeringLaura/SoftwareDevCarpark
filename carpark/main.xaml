@@ -8,8 +8,8 @@
     mc:Ignorable="d">
 
     <Viewbox HorizontalAlignment="Left" VerticalAlignment="Top" Stretch="Uniform">
-        <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-            <TextBlock x:Name="txt_Title1" HorizontalAlignment="Left" Height="94" Margin="68,25,0,0" Text="Welcome To Carpark 1" TextWrapping="Wrap" VerticalAlignment="Top" Width="1326" FontSize="72" TextAlignment="Center"/>
+        <Grid x:Name="grid_background" Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+            <TextBlock x:Name="txt_Title1" HorizontalAlignment="Left" Height="94" Margin="344,22,0,0" Text="Welcome To Carpark 1" TextWrapping="Wrap" VerticalAlignment="Top" Width="778" FontSize="72" TextAlignment="Center"/>
             <ListView x:Name="Lstvw_Prices1" HorizontalAlignment="Left" Height="96" Margin="14,252,0,0" VerticalAlignment="Top" Width="247" SelectionChanged="Combobx_Prices_SelectionChanged">
                 <x:String>0 - 2 Hours = £2.00</x:String>
                 <x:String>3 - 5 Hours = £6.00</x:String>
@@ -25,39 +25,39 @@
             <TextBlock x:Name="txt_space5" HorizontalAlignment="Left" Height="31" Margin="74,428,0,0" Text="Space 5" TextWrapping="Wrap" VerticalAlignment="Top" Width="75" Tapped="txt_space5_Tapped"/>
             <TextBlock x:Name="txt_spacesAvailable1" HorizontalAlignment="Left" Height="62" Margin="26,45,0,0" Text="#AvailableSpaces#" TextWrapping="Wrap" VerticalAlignment="Top" Width="204" FontSize="24"/>
             <TextBlock x:Name="txt_coinDispensed1" HorizontalAlignment="Left" Height="51" Margin="353,128,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="82"/>
-            <PasswordBox x:Name="pass_enterReg1" HorizontalAlignment="Left" Height="33" Margin="456,134,0,0" VerticalAlignment="Top" Width="137" PlaceholderText="#EnterReg#" FontSize="16" PasswordChanged="pass_enterReg1_PasswordChanged"/>
-            <PasswordBox x:Name="pass_enterPassword1" HorizontalAlignment="Left" Height="33" Margin="600,133,0,0" VerticalAlignment="Top" Width="137" PlaceholderText="#EnterPassword#" FontSize="16"/>
-            <Button x:Name="btn_submit2" Content="Submit" HorizontalAlignment="Left" Height="37" Margin="746,131,0,0" VerticalAlignment="Top" Width="85" FontSize="16" Click="btn_submit2_Click"/>
+            <PasswordBox x:Name="pass_reg1" HorizontalAlignment="Left" Height="33" Margin="456,134,0,0" VerticalAlignment="Top" Width="137" PlaceholderText="#EnterReg#" FontSize="16" />
+            <PasswordBox x:Name="pass_bay1" HorizontalAlignment="Left" Height="33" Margin="600,133,0,0" VerticalAlignment="Top" Width="137" PlaceholderText="#EnterPassword#" FontSize="16"/>
+            <Button x:Name="btn_BaySubmit1" Content="Submit" HorizontalAlignment="Left" Height="37" Margin="746,131,0,0" VerticalAlignment="Top" Width="85" FontSize="16" Click="btn_submit2_Click"/>
             <TextBlock x:Name="txt_bay1coinDispensed1" HorizontalAlignment="Left" Height="51" Margin="352,179,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="82"/>
-            <PasswordBox x:Name="pass_bay1enterReg1" HorizontalAlignment="Left" Height="33" Margin="455,182,0,0" VerticalAlignment="Top" Width="137" PlaceholderText="#EnterReg#" FontSize="16"/>
-            <PasswordBox x:Name="pass_bay1enterPassword1" HorizontalAlignment="Left" Height="33" Margin="602,183,0,0" VerticalAlignment="Top" Width="137" PlaceholderText="#EnterPassword#" FontSize="16"/>
-            <Button x:Name="btn_bay1submit1" Content="Submit" HorizontalAlignment="Left" Height="37" Margin="749,181,0,0" VerticalAlignment="Top" Width="85" FontSize="16" Click="btn_bay1submit1_Click"/>
+            <PasswordBox x:Name="pass_reg2" HorizontalAlignment="Left" Height="33" Margin="455,182,0,0" VerticalAlignment="Top" Width="137" PlaceholderText="#EnterReg#" FontSize="16"/>
+            <PasswordBox x:Name="pass_bay2" HorizontalAlignment="Left" Height="33" Margin="602,183,0,0" VerticalAlignment="Top" Width="137" PlaceholderText="#EnterPassword#" FontSize="16"/>
+            <Button x:Name="btn_BaySubmit2" Content="Submit" HorizontalAlignment="Left" Height="37" Margin="749,181,0,0" VerticalAlignment="Top" Width="85" FontSize="16" Click="btn_bay1submit1_Click"/>
             <TextBlock x:Name="txt_coinDispensed_Copy4" HorizontalAlignment="Left" Height="51" Margin="354,229,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="82"/>
-            <PasswordBox x:Name="pass_enterReg_Copy4" HorizontalAlignment="Left" Height="33" Margin="455,232,0,0" VerticalAlignment="Top" Width="137" PlaceholderText="#EnterReg#" FontSize="16"/>
-            <PasswordBox x:Name="pass_enterPassword_Copy4" HorizontalAlignment="Left" Height="33" Margin="605,230,0,0" VerticalAlignment="Top" Width="137" PlaceholderText="#EnterPassword#" FontSize="16"/>
-            <Button x:Name="btn_submit_Copy4" Content="Submit" HorizontalAlignment="Left" Height="37" Margin="752,231,0,0" VerticalAlignment="Top" Width="85" FontSize="16" Click="btn_submit_Copy4_Click"/>
+            <PasswordBox x:Name="pass_reg3" HorizontalAlignment="Left" Height="33" Margin="455,232,0,0" VerticalAlignment="Top" Width="137" PlaceholderText="#EnterReg#" FontSize="16"/>
+            <PasswordBox x:Name="pass_bay3" HorizontalAlignment="Left" Height="33" Margin="605,230,0,0" VerticalAlignment="Top" Width="137" PlaceholderText="#EnterPassword#" FontSize="16"/>
+            <Button x:Name="btn_BaySubmit3" Content="Submit" HorizontalAlignment="Left" Height="37" Margin="752,231,0,0" VerticalAlignment="Top" Width="85" FontSize="16" Click="btn_submit_Copy4_Click"/>
             <TextBlock x:Name="txt_coinDispensed_Copy5" HorizontalAlignment="Left" Height="51" Margin="354,279,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="82"/>
-            <PasswordBox x:Name="pass_enterReg_Copy5" HorizontalAlignment="Left" Height="33" Margin="455,283,0,0" VerticalAlignment="Top" Width="137" PlaceholderText="#EnterReg#" FontSize="16"/>
-            <PasswordBox x:Name="pass_enterPassword_Copy5" HorizontalAlignment="Left" Height="33" Margin="604,277,0,0" VerticalAlignment="Top" Width="137" PlaceholderText="#EnterPassword#" FontSize="16"/>
-            <Button x:Name="btn_submit_Copy5" Content="Submit" HorizontalAlignment="Left" Height="37" Margin="754,275,0,0" VerticalAlignment="Top" Width="85" FontSize="16" Click="btn_submit_Copy5_Click"/>
+            <PasswordBox x:Name="pass_reg4" HorizontalAlignment="Left" Height="33" Margin="455,283,0,0" VerticalAlignment="Top" Width="137" PlaceholderText="#EnterReg#" FontSize="16"/>
+            <PasswordBox x:Name="pass_bay4" HorizontalAlignment="Left" Height="33" Margin="604,277,0,0" VerticalAlignment="Top" Width="137" PlaceholderText="#EnterPassword#" FontSize="16"/>
+            <Button x:Name="btn_BaySubmit4" Content="Submit" HorizontalAlignment="Left" Height="37" Margin="754,275,0,0" VerticalAlignment="Top" Width="85" FontSize="16" Click="btn_submit_Copy5_Click"/>
             <TextBlock x:Name="txt_coinDispensed_Copy6" HorizontalAlignment="Left" Height="51" Margin="353,328,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="82"/>
-            <PasswordBox x:Name="pass_enterReg_Copy6" HorizontalAlignment="Left" Height="33" Margin="455,330,0,0" VerticalAlignment="Top" Width="137" PlaceholderText="#EnterReg#" FontSize="16"/>
-            <PasswordBox x:Name="pass_enterPassword_Copy6" HorizontalAlignment="Left" Height="33" Margin="604,327,0,0" VerticalAlignment="Top" Width="137" PlaceholderText="#EnterPassword#" FontSize="16"/>
-            <Button x:Name="btn_submit_Copy6" Content="Submit" HorizontalAlignment="Left" Height="37" Margin="753,325,0,0" VerticalAlignment="Top" Width="85" FontSize="16" Click="btn_submit_Copy6_Click"/>
-            <Button x:Name="btn_unlock1" Content="Unlock" HorizontalAlignment="Left" Height="39" Margin="834,129,0,0" VerticalAlignment="Top" Width="89" FontSize="18" Click="btn_unlock1_Click"/>
-            <Button x:Name="btn_unlock_Copy4" Content="Unlock" HorizontalAlignment="Left" Height="39" Margin="839,179,0,0" VerticalAlignment="Top" Width="89" FontSize="18" Click="btn_unlock_Copy4_Click"/>
-            <Button x:Name="btn_unlock_Copy5" Content="Unlock" HorizontalAlignment="Left" Height="39" Margin="843,231,0,0" VerticalAlignment="Top" Width="89" FontSize="18" Click="btn_unlock_Copy5_Click"/>
-            <Button x:Name="btn_unlock_Copy6" Content="Unlock" HorizontalAlignment="Left" Height="39" Margin="845,276,0,0" VerticalAlignment="Top" Width="89" FontSize="18" Click="btn_unlock_Copy6_Click"/>
-            <Button x:Name="btn_unlock_Copy7" Content="Unlock" HorizontalAlignment="Left" Height="39" Margin="845,324,0,0" VerticalAlignment="Top" Width="89" FontSize="18" Click="btn_unlock_Copy7_Click"/>
+            <PasswordBox x:Name="pass_reg5" HorizontalAlignment="Left" Height="33" Margin="455,330,0,0" VerticalAlignment="Top" Width="137" PlaceholderText="#EnterReg#" FontSize="16"/>
+            <PasswordBox x:Name="pass_bay5" HorizontalAlignment="Left" Height="33" Margin="604,327,0,0" VerticalAlignment="Top" Width="137" PlaceholderText="#EnterPassword#" FontSize="16"/>
+            <Button x:Name="btn_BaySubmit5" Content="Submit" HorizontalAlignment="Left" Height="37" Margin="753,325,0,0" VerticalAlignment="Top" Width="85" FontSize="16" Click="btn_submit_Copy6_Click"/>
+            <Button x:Name="btn_BayUnlock1" Content="Unlock" HorizontalAlignment="Left" Height="39" Margin="834,129,0,0" VerticalAlignment="Top" Width="89" FontSize="18" Click="btn_unlock1_Click"/>
+            <Button x:Name="btn_BayUnlock2" Content="Unlock" HorizontalAlignment="Left" Height="39" Margin="839,179,0,0" VerticalAlignment="Top" Width="89" FontSize="18" Click="btn_unlock_Copy4_Click"/>
+            <Button x:Name="btn_BayUnlock3" Content="Unlock" HorizontalAlignment="Left" Height="39" Margin="843,231,0,0" VerticalAlignment="Top" Width="89" FontSize="18" Click="btn_unlock_Copy5_Click"/>
+            <Button x:Name="btn_BayUnlock4" Content="Unlock" HorizontalAlignment="Left" Height="39" Margin="845,276,0,0" VerticalAlignment="Top" Width="89" FontSize="18" Click="btn_unlock_Copy6_Click"/>
+            <Button x:Name="btn_BayUnlock5" Content="Unlock" HorizontalAlignment="Left" Height="39" Margin="845,324,0,0" VerticalAlignment="Top" Width="89" FontSize="18" Click="btn_unlock_Copy7_Click"/>
             <TextBlock x:Name="btn_forgottenPass1" HorizontalAlignment="Left" Height="29" Margin="536,414,0,0" VerticalAlignment="Top" Width="150" Text="Forgotten Password" TextAlignment="Center"/>
             <TextBlock x:Name="btn_ForgotCoin1" HorizontalAlignment="Left" Height="29" Margin="521,380,0,0" VerticalAlignment="Top" Width="109" Text="Lost Coin" TextAlignment="Center"/>
             <TextBlock x:Name="txt_forgotPass1" HorizontalAlignment="Left" Height="25" Margin="689,415,0,0" Text="Enter Coin" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextAlignment="Center" SelectionChanged="txt_forgotPass1_SelectionChanged" Tapped="txt_forgotPass1_Tapped"/>
-            <PasswordBox x:Name="pass_reEnterPassForCoin1" HorizontalAlignment="Left" Height="27" Margin="638,379,0,0" VerticalAlignment="Top" Width="194" PlaceholderText="#Enter Pasword#"/>
+            <PasswordBox x:Name="pass_coin" HorizontalAlignment="Left" Height="27" Margin="638,379,0,0" VerticalAlignment="Top" Width="194" PlaceholderText="#Enter Pasword#"/>
             <Button x:Name="btn_submitPassForCoin1" Content="Submit" HorizontalAlignment="Left" Height="31" Margin="836,380,0,0" VerticalAlignment="Top" Width="93" Click="btn_submitPassForCoin1_Click"/>
             <TextBlock x:Name="txt_proceedToPay1" HorizontalAlignment="Left" Height="47" Margin="825,417,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="144" TextAlignment="Center"/>
             <TextBlock x:Name="txt_Payment1" HorizontalAlignment="Left" Height="41" Margin="1098,47,0,0" Text="Choose Pay Machine:" TextWrapping="Wrap" VerticalAlignment="Top" Width="187" FontSize="18"/>
             <TextBlock x:Name="txt_AmountDue1" HorizontalAlignment="Left" Height="33" Margin="1147,96,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="136" FontSize="18"/>
-            <PasswordBox x:Name="pass_enterDiscount1" HorizontalAlignment="Left" Height="36" Margin="1144,129,0,0" VerticalAlignment="Top" Width="143" PlaceholderText="#EnterDiscount#" FontSize="16"/>
+            <PasswordBox x:Name="pass_DiscountCode" HorizontalAlignment="Left" Height="36" Margin="1144,129,0,0" VerticalAlignment="Top" Width="143" PlaceholderText="#EnterDiscount#" FontSize="16"/>
             <Button x:Name="btn_submit3" Content="Submit" HorizontalAlignment="Left" Height="34" Margin="1295,131,0,0" VerticalAlignment="Top" Width="82" FontSize="16" Click="btn_submit3_Click"/>
             <TextBlock x:Name="txt_selectPayment1" HorizontalAlignment="Left" Height="30" Margin="1143,180,0,0" Text="Select Payment Method" TextWrapping="Wrap" VerticalAlignment="Top" Width="237" FontSize="18"/>
             <Button x:Name="btn_emergencyTheft" Content="Theft" HorizontalAlignment="Left" Height="58" Margin="962,224,0,0" VerticalAlignment="Top" Width="127" Click="btn_emergencyTheft_Click"/>

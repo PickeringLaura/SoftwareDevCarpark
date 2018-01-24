@@ -10,6 +10,10 @@ namespace carpark.CarParkManagement
     {
         static CarparkManager _instance = new CarparkManager();
 
+        Carpark[] carparks;
+        readonly string[] CARPARKNAMES = { "South-West", "Mayfair", "North-East", "Wheatfield" };
+        readonly string[] DISCOUNTCODES = { "BN123", "TH589", "CK490" };
+
         //Getter for the static instance of the carpark, to allow accessibility for other "screens"
         public static CarparkManager Instance
         {
@@ -19,9 +23,6 @@ namespace carpark.CarParkManagement
             }
         }
 
-        Carpark[] carparks;
-        readonly string[] CARPARKNAMES = { "South-West", "Mayfair", "North-East", "Wheatfield" };
-
         CarparkManager()
         {
             carparks = new Carpark[4];
@@ -30,7 +31,6 @@ namespace carpark.CarParkManagement
                 carparks[i] = new Carpark(CARPARKNAMES[i], 5);
             }
         }
-
 
         public Carpark GetCarpark(int index)
         {
@@ -43,5 +43,16 @@ namespace carpark.CarParkManagement
             return Instance.carparks[index];
         }
 
+        public bool ValidateDiscountCode(string code)
+        {
+            if (DISCOUNTCODES.Contains(code))
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
     }
 }

@@ -6,6 +6,7 @@ using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
+using Windows.UI;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Controls.Primitives;
@@ -23,10 +24,7 @@ namespace carpark
     public sealed partial class main : Page
     {
         TextBlock[] txtBlcks;
-
-        PasswordBox[] passwords;
-
-        string password1 = "";
+        private int CurrentlySelectedBay;
 
         public main()
         {
@@ -36,8 +34,6 @@ namespace carpark
 
             txtBlcks = new TextBlock[] { txt_space1, txt_space2, txt_space3, txt_space4, txt_space5 };
             UpdateSpaces();
-
-            passwords = new PasswordBox[] { pass_enterPassword1, pass_bay1enterPassword1, pass_enterPassword_Copy4, pass_enterPassword_Copy5, pass_enterPassword_Copy6 };
         }
 
         private void AllocateNewSpace()
@@ -50,12 +46,15 @@ namespace carpark
         private void DeallocateSpace()
         {
             int id = CarparkManager.Instance.GetCarpark(3).getAllocatedSpaces();
-            Space space = CarparkManager.Instance.GetCarpark(3).GetSpace(id);
-
-            if (space != null)
+            if (id != null)
             {
-                space.SetAllocated(false);
-                txtBlcks[space.GetId()].Text = "Free";
+                Space space = CarparkManager.Instance.GetCarpark(3).GetSpace(id);
+
+                if (space != null)
+                {
+                    space.SetAllocated(false);
+                    txtBlcks[space.GetId()].Text = "Free";
+                }
             }
         }
 
@@ -66,7 +65,7 @@ namespace carpark
 
         private void btn_enterACar1_Click(object sender, RoutedEventArgs e)
         {
-            txt_spacesAvailable1.Text = CarparkManager.Instance.GetCarpark(3).GetEmptySpaces().ToString();
+            txt_spacesAvailable1.Text = CarparkManager.Instance.GetCarpark(3).GetEmptySpaces().ToString() + " spaces are available";
             AllocateNewSpace();
         }
 
@@ -75,16 +74,14 @@ namespace carpark
 
         }
 
+        #region Bay Submit Buttons
         private void btn_submit2_Click(object sender, RoutedEventArgs e)
         {
-            if (CheckReg() && CheckPassword())
+            if (CheckReg(pass_reg1) && CheckPassword(pass_bay1))
             {
-                if (txt_space1.Text != "Allocated" && txt_space1.Text == "Space 1")
+                if (!CarparkManager.Instance.GetCarpark(3).GetSpace(0).IsAllocated())
                 {
-                    txt_space1.Text = "Space 1";
-                }
-                else
-                {
+                    CarparkManager.Instance.GetCarpark(3).GetSpace(0).SetAllocated(true);
                     txt_space1.Text = "Locked";
                 }
             }
@@ -92,112 +89,97 @@ namespace carpark
 
         private void btn_bay1submit1_Click(object sender, RoutedEventArgs e)
         {
-            if (CheckReg() && CheckPassword())
+            if (CheckReg(pass_reg2) && CheckPassword(pass_bay2))
             {
-                if (txt_space2.Text != "Allocated" && txt_space2.Text == "Space 2")
+                if (!CarparkManager.Instance.GetCarpark(3).GetSpace(1).IsAllocated())
                 {
-                    txt_space2.Text = "Space 2";
-                }
-                else
-                {
-                    txt_space2.Text = "Locked";
+                    CarparkManager.Instance.GetCarpark(3).GetSpace(1).SetAllocated(true);
+                    txt_space1.Text = "Locked";
                 }
             }
         }
 
         private void btn_submit_Copy4_Click(object sender, RoutedEventArgs e)
         {
-            if (CheckReg())
+            if (CheckReg(pass_reg3) && CheckPassword(pass_bay3))
             {
-                if (txt_space3.Text != "Allocated" && txt_space3.Text == "Space 3")
+                if (!CarparkManager.Instance.GetCarpark(3).GetSpace(2).IsAllocated())
                 {
-                    txt_space3.Text = "Space 3";
-                }
-                else
-                {
-                    txt_space3.Text = "Locked";
+                    CarparkManager.Instance.GetCarpark(3).GetSpace(2).SetAllocated(true);
+                    txt_space1.Text = "Locked";
                 }
             }
         }
 
         private void btn_submit_Copy5_Click(object sender, RoutedEventArgs e)
         {
-            if (CheckReg())
+            if (CheckReg(pass_reg4) && CheckPassword(pass_bay4))
             {
-                if (txt_space4.Text != "Allocated" && txt_space4.Text == "Space 4")
+                if (!CarparkManager.Instance.GetCarpark(3).GetSpace(3).IsAllocated())
                 {
-                    txt_space4.Text = "Space 4";
-                }
-                else
-                {
-                    txt_space4.Text = "Locked";
+                    CarparkManager.Instance.GetCarpark(3).GetSpace(3).SetAllocated(true);
+                    txt_space1.Text = "Locked";
                 }
             }
         }
 
         private void btn_submit_Copy6_Click(object sender, RoutedEventArgs e)
         {
-            if (CheckReg())
+            if (CheckReg(pass_reg5) && CheckPassword(pass_bay5))
             {
-                if (txt_space5.Text != "Allocated" && txt_space5.Text == "Space 5")
+                if (!CarparkManager.Instance.GetCarpark(3).GetSpace(4).IsAllocated())
                 {
-                    txt_space5.Text = "Space 5";
-                }
-                else
-                {
-                    txt_space5.Text = "Locked";
+                    CarparkManager.Instance.GetCarpark(3).GetSpace(4).SetAllocated(true);
+                    txt_space1.Text = "Locked";
                 }
             }
         }
-
+        #endregion
+        #region Bay Unlock Buttons
         private void btn_unlock1_Click(object sender, RoutedEventArgs e)
         {
             txt_space1.Text = "Pay!";
             txt_AmountDue1.Text = "£6.00";
+            CurrentlySelectedBay = 0;
         }
 
         private void btn_unlock_Copy4_Click(object sender, RoutedEventArgs e)
         {
             txt_space2.Text = "Pay!";
             txt_AmountDue1.Text = "£10.00";
+            CurrentlySelectedBay = 1;
         }
 
         private void btn_unlock_Copy5_Click(object sender, RoutedEventArgs e)
         {
             txt_space3.Text = "Pay!";
             txt_AmountDue1.Text = "£2.00";
+            CurrentlySelectedBay = 2;
         }
 
         private void btn_unlock_Copy6_Click(object sender, RoutedEventArgs e)
         {
             txt_space4.Text = "Pay!";
             txt_AmountDue1.Text = "£15.00";
+            CurrentlySelectedBay = 3;
         }
 
         private void btn_unlock_Copy7_Click(object sender, RoutedEventArgs e)
         {
             txt_space5.Text = "Pay!";
             txt_AmountDue1.Text = "£6.00";
+            CurrentlySelectedBay = 4;
         }
+        #endregion
 
-        private void pass_enterReg1_PasswordChanged(object sender, RoutedEventArgs e)
+        private bool CheckReg(PasswordBox pass)
         {
-            string pword1, reg1;
-
-            //get int reg into reg 1
-            //get int reg into pword 1
-
-            CheckReg();
-        }
-
-        private bool CheckReg()
-        {
-            if (pass_enterReg1.Password.Length == 0)
+            if (pass.Password.Length == 0)
             {
                 txt_paymentDone.Text = "The registration field cannot be left empty";
                 return false;
             }
-            else if (pass_enterReg1.Password.Length <= 7)
+            else if (pass.Password.Length <= 7)
             {
                 return true;
             }
@@ -207,19 +189,19 @@ namespace carpark
             }
         }
 
-        private bool CheckPassword()
+        private bool CheckPassword(PasswordBox pass)
         {
-            if (pass_enterPassword1.Password == "Password")
+            if (pass.Password == "Password")
             {
                 txt_paymentDone.Text = " 'Password' is not allowed to be set as a password";
                 return false;
             }
-            else if (pass_enterPassword1.Password.Length == 0)
+            else if (pass.Password.Length == 0)
             {
                 txt_paymentDone.Text = "The password field cannot be left empty";
                 return false;
             }
-            else if (pass_enterPassword1.Password.Length <= 16)
+            else if (pass.Password.Length <= 16)
             {
                 return true;
             }
@@ -231,14 +213,19 @@ namespace carpark
 
         private void btn_submitPassForCoin1_Click(object sender, RoutedEventArgs e)
         {
-            if (pass_reEnterPassForCoin1.Password != password1)
+            PasswordBox[] passes = new PasswordBox[] { pass_bay1, pass_bay2, pass_bay3, pass_bay4, pass_bay5 };
+
+            for (int i = 0; i < passes.Length; i++)
             {
-                txt_paymentDone.Text = "Password does not match";
+                if(passes[i].Password == pass_coin.Password)
+                {
+                    DeterminePayment(i);
+                    txt_paymentDone.Text = "Continue to pay";
+                    return;
+                }
             }
-            else
-            {
-                txt_paymentDone.Text = "Continue";
-            }
+
+            txt_paymentDone.Text = "Password for forgotten coin does not match";
         }
 
         private void txt_forgotPass1_Tapped(object sender, TappedRoutedEventArgs e)
@@ -251,8 +238,10 @@ namespace carpark
 
         }
 
+        #region Emergency buttons
         private void btn_emergencyFire_Copy_Click(object sender, RoutedEventArgs e)
         {
+            grid_background.Background = new SolidColorBrush(Color.FromArgb(255, 255, 60, 60));
             txt_space1.Text = "Unlocked!";
             txt_space2.Text = "Unlocked!";
             txt_space3.Text = "Unlocked!";
@@ -262,6 +251,7 @@ namespace carpark
 
         private void btn_emergencyTheft_Click(object sender, RoutedEventArgs e)
         {
+            grid_background.Background = new SolidColorBrush(Color.FromArgb(255, 60, 60, 255));
             txt_space1.Text = "Locked!";
             txt_space2.Text = "Locked!";
             txt_space3.Text = "Locked!";
@@ -271,37 +261,30 @@ namespace carpark
 
         private void btn_emergencyStop_Click(object sender, RoutedEventArgs e)
         {
+            grid_background.Background = new SolidColorBrush(Color.FromArgb(255, 255, 255, 255));
             txt_space1.Text = "Space 1";
             txt_space2.Text = "Space 2";
             txt_space3.Text = "Space 3";
             txt_space4.Text = "Space 4";
             txt_space5.Text = "Space 5";
         }
-
-        private bool CheckDiscountCode()
-        {
-            if (pass_enterDiscount1.Password == "BN123")
-            {
-                return true;
-            }
-            else if (pass_enterDiscount1.Password == "TH589")
-            {
-                return true;
-            }
-            else if (pass_enterDiscount1.Password == "CK490")
-            {
-                return true;
-            }
-            else
-            {
-                txt_paymentDone.Text = "This discount code is invalid";
-                return false;
-            }
-        }
+        #endregion
 
         private void btn_submit3_Click(object sender, RoutedEventArgs e)
         {
-            
+            if (CarparkManager.Instance.ValidateDiscountCode(pass_DiscountCode.Password))
+            {
+                if(txt_AmountDue1.Text.Length > 0)
+                {
+                    double price = double.Parse(txt_AmountDue1.Text.TrimStart('£'));
+                    price *= 0.8;
+                    txt_AmountDue1.Text = "£" + Math.Round(price, 2).ToString();
+                }
+                else
+                {
+                    txt_AmountDue1.Text = "Please unlock a pay before payment";
+                }
+            }
         }
 
         private void btn_exitCar1_Click(object sender, RoutedEventArgs e)
@@ -337,22 +320,105 @@ namespace carpark
 
         private void pic_android_Tapped(object sender, TappedRoutedEventArgs e)
         {
-            txt_paymentDone.Text = "You Have Paid. Exit Through Ground FLoor - Exit 1";
+            if (txt_AmountDue1.Text.Contains("£"))
+            {
+                txt_paymentDone.Text = "You Have Paid. Exit Through Ground FLoor - Exit 1";
+                ClearFields(CurrentlySelectedBay);
+            }
         }
 
         private void pic_apple_Tapped(object sender, TappedRoutedEventArgs e)
         {
-            txt_paymentDone.Text = "You Have Paid. Exit Through Ground FLoor - Exit 2";
+            if (txt_AmountDue1.Text.Contains("£"))
+            {
+                txt_paymentDone.Text = "You Have Paid. Exit Through Ground FLoor - Exit 2";
+                ClearFields(CurrentlySelectedBay);
+            }
         }
 
         private void pic_contactless_Tapped(object sender, TappedRoutedEventArgs e)
         {
-            txt_paymentDone.Text = "You Have Paid. Exit Through First Floor - Exit 1";
+            if (txt_AmountDue1.Text.Contains("£"))
+            {
+                txt_paymentDone.Text = "You Have Paid. Exit Through Ground FLoor - Exit 1";
+                ClearFields(CurrentlySelectedBay);
+            }
         }
 
+        
         private void pic_card_Tapped(object sender, TappedRoutedEventArgs e)
         {
-            txt_paymentDone.Text = "You Have Paid. Exit Through First Floor - Exit 2";
+            if (txt_AmountDue1.Text.Contains("£"))
+            {
+                txt_paymentDone.Text = "You Have Paid. Exit Through Ground FLoor - Exit 2";
+                ClearFields(CurrentlySelectedBay);
+            }
+        }
+
+        private void ClearFields(int currentlySelectedBay)
+        {
+            if (currentlySelectedBay == -1)
+            {
+                return;
+            }
+
+            txt_AmountDue1.Text = "";
+            pass_DiscountCode.Password = "";
+            pass_coin.Password = "";
+
+            switch (currentlySelectedBay)
+            {
+                case 0:
+                    pass_bay1.Password = "";
+                    pass_reg1.Password = "";
+                    break;
+                case 1:
+                    pass_bay2.Password = "";
+                    pass_reg2.Password = "";
+                    break;
+                case 2:
+                    pass_bay3.Password = "";
+                    pass_reg3.Password = "";
+                    break;
+                case 3:
+                    pass_bay4.Password = "";
+                    pass_reg4.Password = "";
+                    break;
+                case 4:
+                    pass_bay5.Password = "";
+                    pass_reg5.Password = "";
+                    break;
+                default:
+                    txt_AmountDue1.Text = "Failed to determine bay";
+                    break;
+            }
+
+            currentlySelectedBay = -1;
+        }
+
+        private void DeterminePayment(int i)
+        {
+            switch (i)
+            {
+                case 0:
+                    btn_unlock1_Click(this, null);
+                    break;
+                case 1:
+                    btn_unlock_Copy4_Click(this, null);
+                    break;
+                case 2:
+                    btn_unlock_Copy5_Click(this, null);
+                    break;
+                case 3:
+                    btn_unlock_Copy6_Click(this, null);
+                    break;
+                case 4:
+                    btn_unlock_Copy7_Click(this, null);
+                    break;
+                default:
+                    txt_AmountDue1.Text = "Failed to determine bay";
+                    break;
+            }
         }
     }
 }
