@@ -23,24 +23,24 @@
             <TextBlock x:ConnectionId='8' x:Name="txt_space3" HorizontalAlignment="Left" Height="31" Margin="30,401,0,0" Text="Space 3" TextWrapping="Wrap" VerticalAlignment="Top" Width="75" RenderTransformOrigin="0.48,0.71"                           />
             <TextBlock x:ConnectionId='9' x:Name="txt_space4" HorizontalAlignment="Left" Height="31" Margin="115,397,0,0" Text="Space 4" TextWrapping="Wrap" VerticalAlignment="Top" Width="75"                           />
             <TextBlock x:ConnectionId='10' x:Name="txt_space5" HorizontalAlignment="Left" Height="31" Margin="74,428,0,0" Text="Space 5" TextWrapping="Wrap" VerticalAlignment="Top" Width="75"                           />
-            <TextBlock x:ConnectionId='11' x:Name="txt_spacesAvailable1" HorizontalAlignment="Left" Height="62" Margin="26,45,0,0" Text="#AvailableSpaces#" TextWrapping="Wrap" VerticalAlignment="Top" Width="204" FontSize="24"/>
+            <TextBlock x:ConnectionId='11' x:Name="txt_spacesAvailable1" HorizontalAlignment="Left" Height="39" Margin="26,45,0,0" Text="#AvailableSpaces#" TextWrapping="Wrap" VerticalAlignment="Top" Width="338" FontSize="24"                                                         />
             <TextBlock x:ConnectionId='12' x:Name="txt_coinDispensed1" HorizontalAlignment="Left" Height="51" Margin="353,128,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="82"/>
             <PasswordBox x:ConnectionId='13' x:Name="pass_reg1" HorizontalAlignment="Left" Height="33" Margin="456,134,0,0" VerticalAlignment="Top" Width="137" PlaceholderText="#EnterReg#" FontSize="16" />
             <PasswordBox x:ConnectionId='14' x:Name="pass_bay1" HorizontalAlignment="Left" Height="33" Margin="600,133,0,0" VerticalAlignment="Top" Width="137" PlaceholderText="#EnterPassword#" FontSize="16"/>
             <Button x:ConnectionId='15' x:Name="btn_BaySubmit1" Content="Submit" HorizontalAlignment="Left" Height="37" Margin="746,131,0,0" VerticalAlignment="Top" Width="85" FontSize="16"                          />
-            <TextBlock x:ConnectionId='16' x:Name="txt_bay1coinDispensed1" HorizontalAlignment="Left" Height="51" Margin="352,179,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="82"/>
+            <TextBlock x:ConnectionId='16' x:Name="txt_coinDispensed2" HorizontalAlignment="Left" Height="51" Margin="352,179,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="82"/>
             <PasswordBox x:ConnectionId='17' x:Name="pass_reg2" HorizontalAlignment="Left" Height="33" Margin="455,182,0,0" VerticalAlignment="Top" Width="137" PlaceholderText="#EnterReg#" FontSize="16"/>
             <PasswordBox x:ConnectionId='18' x:Name="pass_bay2" HorizontalAlignment="Left" Height="33" Margin="602,183,0,0" VerticalAlignment="Top" Width="137" PlaceholderText="#EnterPassword#" FontSize="16"/>
             <Button x:ConnectionId='19' x:Name="btn_BaySubmit2" Content="Submit" HorizontalAlignment="Left" Height="37" Margin="749,181,0,0" VerticalAlignment="Top" Width="85" FontSize="16"                              />
-            <TextBlock x:ConnectionId='20' x:Name="txt_coinDispensed_Copy4" HorizontalAlignment="Left" Height="51" Margin="354,229,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="82"/>
+            <TextBlock x:ConnectionId='20' x:Name="txt_coinDispensed3" HorizontalAlignment="Left" Height="51" Margin="354,229,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="82"/>
             <PasswordBox x:ConnectionId='21' x:Name="pass_reg3" HorizontalAlignment="Left" Height="33" Margin="455,232,0,0" VerticalAlignment="Top" Width="137" PlaceholderText="#EnterReg#" FontSize="16"/>
             <PasswordBox x:ConnectionId='22' x:Name="pass_bay3" HorizontalAlignment="Left" Height="33" Margin="605,230,0,0" VerticalAlignment="Top" Width="137" PlaceholderText="#EnterPassword#" FontSize="16"/>
             <Button x:ConnectionId='23' x:Name="btn_BaySubmit3" Content="Submit" HorizontalAlignment="Left" Height="37" Margin="752,231,0,0" VerticalAlignment="Top" Width="85" FontSize="16"                               />
-            <TextBlock x:ConnectionId='24' x:Name="txt_coinDispensed_Copy5" HorizontalAlignment="Left" Height="51" Margin="354,279,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="82"/>
+            <TextBlock x:ConnectionId='24' x:Name="txt_coinDispensed4" HorizontalAlignment="Left" Height="51" Margin="354,279,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="82"/>
             <PasswordBox x:ConnectionId='25' x:Name="pass_reg4" HorizontalAlignment="Left" Height="33" Margin="455,283,0,0" VerticalAlignment="Top" Width="137" PlaceholderText="#EnterReg#" FontSize="16"/>
             <PasswordBox x:ConnectionId='26' x:Name="pass_bay4" HorizontalAlignment="Left" Height="33" Margin="604,277,0,0" VerticalAlignment="Top" Width="137" PlaceholderText="#EnterPassword#" FontSize="16"/>
             <Button x:ConnectionId='27' x:Name="btn_BaySubmit4" Content="Submit" HorizontalAlignment="Left" Height="37" Margin="754,275,0,0" VerticalAlignment="Top" Width="85" FontSize="16"                               />
-            <TextBlock x:ConnectionId='28' x:Name="txt_coinDispensed_Copy6" HorizontalAlignment="Left" Height="51" Margin="353,328,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="82"/>
+            <TextBlock x:ConnectionId='28' x:Name="txt_coinDispensed5" HorizontalAlignment="Left" Height="51" Margin="353,328,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="82"/>
             <PasswordBox x:ConnectionId='29' x:Name="pass_reg5" HorizontalAlignment="Left" Height="33" Margin="455,330,0,0" VerticalAlignment="Top" Width="137" PlaceholderText="#EnterReg#" FontSize="16"/>
             <PasswordBox x:ConnectionId='30' x:Name="pass_bay5" HorizontalAlignment="Left" Height="33" Margin="604,327,0,0" VerticalAlignment="Top" Width="137" PlaceholderText="#EnterPassword#" FontSize="16"/>
             <Button x:ConnectionId='31' x:Name="btn_BaySubmit5" Content="Submit" HorizontalAlignment="Left" Height="37" Margin="753,325,0,0" VerticalAlignment="Top" Width="85" FontSize="16"                               />
@@ -55,7 +55,7 @@
             <PasswordBox x:ConnectionId='40' x:Name="pass_coin" HorizontalAlignment="Left" Height="27" Margin="638,379,0,0" VerticalAlignment="Top" Width="194" PlaceholderText="#Enter Pasword#"/>
             <Button x:ConnectionId='41' x:Name="btn_submitPassForCoin1" Content="Submit" HorizontalAlignment="Left" Height="31" Margin="836,380,0,0" VerticalAlignment="Top" Width="93"                                     />
             <TextBlock x:ConnectionId='42' x:Name="txt_proceedToPay1" HorizontalAlignment="Left" Height="47" Margin="825,417,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="144" TextAlignment="Center"/>
-            <TextBlock x:ConnectionId='43' x:Name="txt_Payment1" HorizontalAlignment="Left" Height="41" Margin="1098,47,0,0" Text="Choose Pay Machine:" TextWrapping="Wrap" VerticalAlignment="Top" Width="187" FontSize="18"/>
+            <TextBlock x:ConnectionId='43' x:Name="txt_Payment1" HorizontalAlignment="Left" Height="70" Margin="1098,47,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="292" FontSize="18" TextAlignment="Center"/>
             <TextBlock x:ConnectionId='44' x:Name="txt_AmountDue1" HorizontalAlignment="Left" Height="33" Margin="1147,96,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="136" FontSize="18"/>
             <PasswordBox x:ConnectionId='45' x:Name="pass_DiscountCode" HorizontalAlignment="Left" Height="36" Margin="1144,129,0,0" VerticalAlignment="Top" Width="143" PlaceholderText="#EnterDiscount#" FontSize="16"/>
             <Button x:ConnectionId='46' x:Name="btn_submit3" Content="Submit" HorizontalAlignment="Left" Height="34" Margin="1295,131,0,0" VerticalAlignment="Top" Width="82" FontSize="16"                          />
@@ -63,19 +63,18 @@
             <Button x:ConnectionId='48' x:Name="btn_emergencyTheft" Content="Theft" HorizontalAlignment="Left" Height="58" Margin="962,224,0,0" VerticalAlignment="Top" Width="127"                                 />
             <Button x:ConnectionId='49' x:Name="btn_emergencyFire_Copy" Content="Fire" HorizontalAlignment="Left" Height="58" Margin="960,161,0,0" VerticalAlignment="Top" Width="129"                                     />
             <Button x:ConnectionId='50' x:Name="btn_emergencyStop" Content="Stop" HorizontalAlignment="Left" Height="35" Margin="965,291,0,0" VerticalAlignment="Top" Width="123"                                />
-            <TextBlock x:ConnectionId='51' x:Name="txt_Pay1" HorizontalAlignment="Left" Height="37" Margin="1302,41,0,0" Text="Pay 1" TextWrapping="Wrap" VerticalAlignment="Top" Width="80" TextAlignment="Center"/>
-            <TextBlock x:ConnectionId='52' x:Name="txt_Pay2" HorizontalAlignment="Left" Height="34" Margin="1389,41,0,0" Text="Pay 2" TextWrapping="Wrap" VerticalAlignment="Top" Width="78" TextAlignment="Center"/>
-            <TextBlock x:ConnectionId='53' x:Name="txt_pay3" HorizontalAlignment="Left" Height="34" Margin="1349,83,0,0" Text="Pay 3" TextWrapping="Wrap" VerticalAlignment="Top" Width="75" RenderTransformOrigin="0.393,0.162" TextAlignment="Center"/>
-            <TextBlock x:ConnectionId='54' x:Name="txt_paymentDone" HorizontalAlignment="Left" Height="93" Margin="969,366,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="135"/>
-            <Image x:ConnectionId='55' x:Name="pic_android" HorizontalAlignment="Left" Height="92" Margin="1140,234,0,0" VerticalAlignment="Top" Width="108" Source="Assets/androidpaylogo-outlined.png"                            />
-            <Image x:ConnectionId='56' x:Name ="pic_apple" HorizontalAlignment="Left" Height="62" Margin="1284,252,0,0" VerticalAlignment="Top" Width="108" Source="Assets/apple-pay-logo-F68C9AC252-seeklogo.com.png"                          />
-            <Image x:ConnectionId='57' x:Name="pic_contactless" HorizontalAlignment="Left" Height="76" Margin="1150,344,0,0" VerticalAlignment="Top" Width="108" Source="Assets/Universal_Contactless_Card_Symbol.svg.png" RenderTransformOrigin="0.667,0.079"                                />
-            <Image x:ConnectionId='58' x:Name="pic_card" HorizontalAlignment="Left" Height="36" Margin="1288,360,0,0" VerticalAlignment="Top" Width="108" Source="Assets/Visa.png"                         />
+            <TextBlock x:ConnectionId='51' x:Name="txt_paymentDone" HorizontalAlignment="Left" Height="115" Margin="969,344,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="135"/>
+            <Image x:ConnectionId='52' x:Name="pic_android" HorizontalAlignment="Left" Height="92" Margin="1140,234,0,0" VerticalAlignment="Top" Width="108" Source="Assets/androidpaylogo-outlined.png"                            />
+            <Image x:ConnectionId='53' x:Name ="pic_apple" HorizontalAlignment="Left" Height="62" Margin="1284,252,0,0" VerticalAlignment="Top" Width="96" Source="Assets/apple-pay-logo-F68C9AC252-seeklogo.com.png"                          />
+            <Image x:ConnectionId='54' x:Name="pic_contactless" HorizontalAlignment="Left" Height="76" Margin="1150,344,0,0" VerticalAlignment="Top" Width="108" Source="Assets/Universal_Contactless_Card_Symbol.svg.png" RenderTransformOrigin="0.667,0.079"                                />
+            <Image x:ConnectionId='55' x:Name="pic_card" HorizontalAlignment="Left" Height="36" Margin="1288,360,0,0" VerticalAlignment="Top" Width="105" Source="Assets/Visa.png"                         />
             <ListView HorizontalAlignment="Left" Height="103" Margin="10,141,0,0" VerticalAlignment="Top" Width="251">
                 <x:String>Carpark 2 - 30 Available Spaces</x:String>
                 <x:String>Carpark 3 - 20 Available Spaces</x:String>
                 <x:String>Carpark 4 - 35 Available Spaces</x:String>
             </ListView>
+            <TextBlock x:ConnectionId='56' x:Name="txt_EmergencyVehicles" HorizontalAlignment="Left" Height="90" Margin="195,365,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="258"/>
+            <TextBlock x:ConnectionId='57' x:Name="txt_displayBarriers" HorizontalAlignment="Left" Height="24" Margin="458,104,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="465" TextAlignment="Center"/>
         </Grid>
     </Viewbox>
 </Page>

@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>CRYO-PC</Machine>
-    <WindowsUser>Ross</WindowsUser>
+    <Machine>DESKTOP-FCQIIHL</Machine>
+    <WindowsUser>Laura</WindowsUser>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetOsVersion>10.0</TargetOsVersion>
     <TargetOsDescription>Windows 10.0</TargetOsDescription>
@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>1f2d63d5-e6a3-4453-aa39-26f8c9395d3e</PackageIdentityName>
     <PackageIdentityPublisher>CN=Laura</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\Ross\Documents\Git\SoftwareDevCarpark\carpark\obj\x86\Release\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\Laura\Documents\secureCarpark\SoftwareDevCarpark\carpark\obj\x86\Release\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,7 +18,7 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\Ross\Documents\Git\SoftwareDevCarpark\carpark\bin\x86\Release\AppX</LayoutDir>
+    <LayoutDir>C:\Users\Laura\Documents\secureCarpark\SoftwareDevCarpark\carpark\bin\x86\Release\AppX</LayoutDir>
     <RegisteredManifestChecksum>82961A0CB479449E367D3D3CAD6901495D60FE750E6E8E8237532C1A81BD1035</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>1f2d63d5-e6a3-4453-aa39-26f8c9395d3e_1.0.0.0_x86__bhrgt734xp76w</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>1f2d63d5-e6a3-4453-aa39-26f8c9395d3e_bhrgt734xp76w!App</RegisteredUserModeAppID>
@@ -28,128 +28,137 @@
     <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\Ross\Documents\Git\SoftwareDevCarpark\carpark\bin\x86\Release\ilc\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\Laura\Documents\secureCarpark\SoftwareDevCarpark\carpark\bin\x86\Release\ilc\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-01-24T00:48:55.766</Modified>
+      <Modified>2018-01-24T13:56:14.846</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\Ross\Documents\Git\SoftwareDevCarpark\carpark\bin\x86\Release\ilc\Assets\androidpaylogo-outlined.png">
+    <AppxPackagedFile Include="C:\Users\Laura\Documents\secureCarpark\SoftwareDevCarpark\carpark\bin\x86\Release\ilc\Assets\androidpaylogo-outlined.png">
       <PackagePath>Assets\androidpaylogo-outlined.png</PackagePath>
-      <Modified>2018-01-23T23:02:51.775</Modified>
+      <Modified>2017-11-20T00:28:13.663</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ross\Documents\Git\SoftwareDevCarpark\carpark\bin\x86\Release\ilc\Assets\apple-pay-logo-F68C9AC252-seeklogo.com.png">
+    <AppxPackagedFile Include="C:\Users\Laura\Documents\secureCarpark\SoftwareDevCarpark\carpark\bin\x86\Release\ilc\Assets\apple-pay-logo-F68C9AC252-seeklogo.com.png">
       <PackagePath>Assets\apple-pay-logo-F68C9AC252-seeklogo.com.png</PackagePath>
-      <Modified>2018-01-23T23:02:51.764</Modified>
+      <Modified>2017-11-20T00:28:13.663</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ross\Documents\Git\SoftwareDevCarpark\carpark\bin\x86\Release\ilc\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Laura\Documents\secureCarpark\SoftwareDevCarpark\carpark\bin\x86\Release\ilc\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
-      <Modified>2018-01-23T23:02:51.766</Modified>
+      <Modified>2017-12-30T14:19:34.809</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ross\Documents\Git\SoftwareDevCarpark\carpark\bin\x86\Release\ilc\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Laura\Documents\secureCarpark\SoftwareDevCarpark\carpark\bin\x86\Release\ilc\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-01-23T23:02:51.769</Modified>
+      <Modified>2017-12-30T14:19:34.809</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ross\Documents\Git\SoftwareDevCarpark\carpark\bin\x86\Release\ilc\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Laura\Documents\secureCarpark\SoftwareDevCarpark\carpark\bin\x86\Release\ilc\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-01-23T23:02:51.770</Modified>
+      <Modified>2017-12-30T14:19:34.809</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ross\Documents\Git\SoftwareDevCarpark\carpark\bin\x86\Release\ilc\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Laura\Documents\secureCarpark\SoftwareDevCarpark\carpark\bin\x86\Release\ilc\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-01-23T23:02:51.780</Modified>
+      <Modified>2017-12-30T14:19:34.809</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ross\Documents\Git\SoftwareDevCarpark\carpark\bin\x86\Release\ilc\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\Laura\Documents\secureCarpark\SoftwareDevCarpark\carpark\bin\x86\Release\ilc\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-01-23T23:02:51.782</Modified>
+      <Modified>2017-12-30T14:19:34.809</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ross\Documents\Git\SoftwareDevCarpark\carpark\bin\x86\Release\ilc\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\Laura\Documents\secureCarpark\SoftwareDevCarpark\carpark\bin\x86\Release\ilc\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-01-23T23:02:51.780</Modified>
+      <Modified>2017-12-30T14:19:34.809</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ross\Documents\Git\SoftwareDevCarpark\carpark\bin\x86\Release\ilc\Assets\Universal_Contactless_Card_Symbol.svg.png">
+    <AppxPackagedFile Include="C:\Users\Laura\Documents\secureCarpark\SoftwareDevCarpark\carpark\bin\x86\Release\ilc\Assets\Universal_Contactless_Card_Symbol.svg.png">
       <PackagePath>Assets\Universal_Contactless_Card_Symbol.svg.png</PackagePath>
-      <Modified>2018-01-23T23:02:51.791</Modified>
+      <Modified>2017-11-20T00:28:13.683</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ross\Documents\Git\SoftwareDevCarpark\carpark\bin\x86\Release\ilc\Assets\Visa.png">
+    <AppxPackagedFile Include="C:\Users\Laura\Documents\secureCarpark\SoftwareDevCarpark\carpark\bin\x86\Release\ilc\Assets\Visa.png">
       <PackagePath>Assets\Visa.png</PackagePath>
-      <Modified>2018-01-23T23:02:51.789</Modified>
+      <Modified>2017-11-20T00:28:13.683</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ross\Documents\Git\SoftwareDevCarpark\carpark\bin\x86\Release\ilc\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Laura\Documents\secureCarpark\SoftwareDevCarpark\carpark\bin\x86\Release\ilc\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-01-23T23:02:51.786</Modified>
+      <Modified>2017-12-30T14:19:34.809</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ross\Documents\Git\SoftwareDevCarpark\carpark\bin\x86\Release\ilc\carpark.dll">
+    <AppxPackagedFile Include="C:\Users\Laura\Documents\secureCarpark\SoftwareDevCarpark\carpark\bin\x86\Release\ilc\carpark.dll">
       <PackagePath>carpark.dll</PackagePath>
-      <Modified>2018-01-24T00:48:55.454</Modified>
+      <Modified>2018-01-24T13:56:14.653</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ross\Documents\Git\SoftwareDevCarpark\carpark\bin\x86\Release\ilc\carpark.exe">
+    <AppxPackagedFile Include="C:\Users\Laura\Documents\secureCarpark\SoftwareDevCarpark\carpark\bin\x86\Release\ilc\carpark.exe">
       <PackagePath>carpark.exe</PackagePath>
-      <Modified>2018-01-24T00:48:55.732</Modified>
+      <Modified>2018-01-24T13:56:14.821</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ross\Documents\Git\SoftwareDevCarpark\carpark\bin\x86\Release\ilc\carpark.pdb">
+    <AppxPackagedFile Include="C:\Users\Laura\Documents\secureCarpark\SoftwareDevCarpark\carpark\bin\x86\Release\ilc\carpark.pdb">
       <PackagePath>carpark.pdb</PackagePath>
-      <Modified>2018-01-24T00:48:55.703</Modified>
+      <Modified>2018-01-24T13:56:14.807</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ross\Documents\Git\SoftwareDevCarpark\carpark\bin\x86\Release\ilc\clrcompression.dll">
+    <AppxPackagedFile Include="C:\Users\Laura\Documents\secureCarpark\SoftwareDevCarpark\carpark\bin\x86\Release\ilc\clrcompression.dll">
       <PackagePath>clrcompression.dll</PackagePath>
       <Modified>2016-06-13T20:51:30.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Ross\Documents\Git\SoftwareDevCarpark\carpark\bin\x86\Release\ilc\resources.pri">
+    <AppxPackagedFile Include="C:\Users\Laura\Documents\secureCarpark\SoftwareDevCarpark\carpark\bin\x86\Release\ilc\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-01-24T00:34:16.170</Modified>
+      <Modified>2018-01-24T13:20:29.611</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
-    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackagesFallback\microsoft.net.native.sharedlibrary-x86\1.7.0\build\..\tools\SharedLibrary\ret\Native\Microsoft.NET.Native.Framework.1.7.appx">
+    <ResolvedSDKReference Include="C:\Users\Laura\.nuget\packages\microsoft.net.native.sharedlibrary-x86\1.7.0\build\..\tools\SharedLibrary\ret\Native\Microsoft.NET.Native.Framework.1.7.appx">
       <Name>Microsoft.NET.Native.Framework.1.7</Name>
       <Version>1.7.25531.0</Version>
       <Architecture>x86</Architecture>
       <FrameworkIdentity>Name = Microsoft.NET.Native.Framework.1.7, MinVersion = 1.7.25531.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackagesFallback\microsoft.net.native.sharedlibrary-x86\1.7.0\build\..\tools\SharedLibrary\ret\Native\Microsoft.NET.Native.Framework.1.7.appx</AppxLocation>
+      <AppxLocation>C:\Users\Laura\.nuget\packages\microsoft.net.native.sharedlibrary-x86\1.7.0\build\..\tools\SharedLibrary\ret\Native\Microsoft.NET.Native.Framework.1.7.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackagesFallback\microsoft.net.native.sharedlibrary-x64\1.7.0\build\..\tools\SharedLibrary\ret\Native\Microsoft.NET.Native.Framework.1.7.appx">
+    <ResolvedSDKReference Include="C:\Users\Laura\.nuget\packages\microsoft.net.native.sharedlibrary-x64\1.7.0\build\..\tools\SharedLibrary\ret\Native\Microsoft.NET.Native.Framework.1.7.appx">
       <Name>Microsoft.NET.Native.Framework.1.7</Name>
       <Version>1.7.25531.0</Version>
       <Architecture>x64</Architecture>
       <FrameworkIdentity>Name = Microsoft.NET.Native.Framework.1.7, MinVersion = 1.7.25531.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackagesFallback\microsoft.net.native.sharedlibrary-x64\1.7.0\build\..\tools\SharedLibrary\ret\Native\Microsoft.NET.Native.Framework.1.7.appx</AppxLocation>
+      <AppxLocation>C:\Users\Laura\.nuget\packages\microsoft.net.native.sharedlibrary-x64\1.7.0\build\..\tools\SharedLibrary\ret\Native\Microsoft.NET.Native.Framework.1.7.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Users\Ross\.nuget\packages\microsoft.net.native.compiler\1.7.3\build\..\tools\Runtime\x86\Microsoft.NET.Native.Runtime.1.7.appx">
+    <ResolvedSDKReference Include="C:\Users\Laura\.nuget\packages\microsoft.net.native.sharedlibrary-arm\1.7.0\build\..\tools\SharedLibrary\ret\Native\Microsoft.NET.Native.Framework.1.7.appx">
+      <Name>Microsoft.NET.Native.Framework.1.7</Name>
+      <Version>1.7.25531.0</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Framework.1.7, MinVersion = 1.7.25531.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\Laura\.nuget\packages\microsoft.net.native.sharedlibrary-arm\1.7.0\build\..\tools\SharedLibrary\ret\Native\Microsoft.NET.Native.Framework.1.7.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\Laura\.nuget\packages\microsoft.net.native.compiler\1.7.3\build\..\tools\Runtime\x86\Microsoft.NET.Native.Runtime.1.7.appx">
       <Name>Microsoft.NET.Native.Runtime.1.7</Name>
       <Version>1.7.25531.0</Version>
       <Architecture>x86</Architecture>
       <FrameworkIdentity>Name = Microsoft.NET.Native.Runtime.1.7, MinVersion = 1.7.25531.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Users\Ross\.nuget\packages\microsoft.net.native.compiler\1.7.3\build\..\tools\Runtime\x86\Microsoft.NET.Native.Runtime.1.7.appx</AppxLocation>
+      <AppxLocation>C:\Users\Laura\.nuget\packages\microsoft.net.native.compiler\1.7.3\build\..\tools\Runtime\x86\Microsoft.NET.Native.Runtime.1.7.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Users\Ross\.nuget\packages\microsoft.net.native.compiler\1.7.3\build\..\tools\Runtime\x64\Microsoft.NET.Native.Runtime.1.7.appx">
+    <ResolvedSDKReference Include="C:\Users\Laura\.nuget\packages\microsoft.net.native.compiler\1.7.3\build\..\tools\Runtime\x64\Microsoft.NET.Native.Runtime.1.7.appx">
       <Name>Microsoft.NET.Native.Runtime.1.7</Name>
       <Version>1.7.25531.0</Version>
       <Architecture>x64</Architecture>
       <FrameworkIdentity>Name = Microsoft.NET.Native.Runtime.1.7, MinVersion = 1.7.25531.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Users\Ross\.nuget\packages\microsoft.net.native.compiler\1.7.3\build\..\tools\Runtime\x64\Microsoft.NET.Native.Runtime.1.7.appx</AppxLocation>
+      <AppxLocation>C:\Users\Laura\.nuget\packages\microsoft.net.native.compiler\1.7.3\build\..\tools\Runtime\x64\Microsoft.NET.Native.Runtime.1.7.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Users\Ross\.nuget\packages\microsoft.net.native.compiler\1.7.3\build\..\tools\Runtime\arm\Microsoft.NET.Native.Runtime.1.7.appx">
+    <ResolvedSDKReference Include="C:\Users\Laura\.nuget\packages\microsoft.net.native.compiler\1.7.3\build\..\tools\Runtime\arm\Microsoft.NET.Native.Runtime.1.7.appx">
       <Name>Microsoft.NET.Native.Runtime.1.7</Name>
       <Version>1.7.25531.0</Version>
       <Architecture>arm</Architecture>
       <FrameworkIdentity>Name = Microsoft.NET.Native.Runtime.1.7, MinVersion = 1.7.25531.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Users\Ross\.nuget\packages\microsoft.net.native.compiler\1.7.3\build\..\tools\Runtime\arm\Microsoft.NET.Native.Runtime.1.7.appx</AppxLocation>
+      <AppxLocation>C:\Users\Laura\.nuget\packages\microsoft.net.native.compiler\1.7.3\build\..\tools\Runtime\arm\Microsoft.NET.Native.Runtime.1.7.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
